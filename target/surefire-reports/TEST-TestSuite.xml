@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="289.725" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="webdriver.chrome.driver" value="C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="browserDriverPath" value="C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities"/>
+    <property name="java.class.path" value="C:\Users\Saurabh\eclipse-workspace\FreeCRMTest\target\test-classes;C:\Users\Saurabh\eclipse-workspace\FreeCRMTest\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ini4j\ini4j\0.5.4\ini4j-0.5.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="password" value="Test@12345"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_301\jre\bin"/>
+    <property name="implicitWait" value="60"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire4827674106721423149\surefirebooter165353823213160025.jar C:\Windows\Temp\surefire4827674106721423149 2021-08-23T17-40-35_060-jvmRun1 surefire7865994058109038563tmp surefire_06924924366077012882tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Saurabh\eclipse-workspace\FreeCRMTest\target\test-classes;C:\Users\Saurabh\eclipse-workspace\FreeCRMTest\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ini4j\ini4j\0.5.4\ini4j-0.5.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_301\jre"/>
+    <property name="basedir" value="C:\Users\Saurabh\eclipse-workspace\FreeCRMTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="maximiseBrowser" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire4827674106721423149\surefirebooter165353823213160025.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_301\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_301-b09"/>
+    <property name="user.name" value="LAPTOP-C44P0VHU$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_301\jre\lib\endorsed"/>
+    <property name="headlessBrowser" value="true"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="pageLoadWait" value="60"/>
+    <property name="java.version" value="1.8.0_301"/>
+    <property name="user.dir" value="C:\Users\Saurabh\eclipse-workspace\FreeCRMTest"/>
+    <property name="browserUrl" value="https://classic.freecrm.com/index.html"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="userName" value="groupautomation"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_301\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Saurabh\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files (x86)\Java\jdk1.8.0_301/bin;C:\Program Files (x86)\Java\jdk1.8.0_301/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.301-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_301\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verifyloginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTests" time="0.002">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:40:38 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:40:38 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:40:38 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:40:38 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:40:38 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:40:38 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:40:38 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:40:38 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:40:38 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:40:40 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:40:40 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:40:44 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:40:44 LoginPageTests.java INFO  [main] testcases.LoginPageTests 31 - Validating Login Page Title
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 42445
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720639.620][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:40:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifycrmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTests" time="0.177">
+    <system-out><![CDATA[08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:41:11 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:41:11 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:41:11 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:41:11 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:41:11 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:41:11 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:41:11 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:41:11 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:41:11 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:41:13 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:41:13 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:41:18 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:41:18 LoginPageTests.java INFO  [main] testcases.LoginPageTests 38 - Validating Login Page CRM Logo
+08-23-2021 17:41:18 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //img[@class='img-responsive' and contains(@src,'logo')]
+08-23-2021 17:41:18 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //img[@class='img-responsive' and contains(@src,'logo')]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 3913
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720672.891][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:41:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyloginTest" classname="com.crm.qa.testcases.LoginPageTests" time="34.673">
+    <system-out><![CDATA[08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:41:46 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:41:46 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:41:46 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:41:46 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:41:46 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:41:46 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:41:46 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:41:46 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:41:46 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:41:47 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:41:47 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:41:52 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:41:52 LoginPageTests.java INFO  [main] testcases.LoginPageTests 44 - Validating User is able to login successfully
+08-23-2021 17:41:52 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:41:52 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:41:52 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:41:52 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:41:53 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:41:53 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:41:53 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc41353a8d5bc6cda7fb71ccdcb02f75)] -> xpath: //input[@type='submit']]
+08-23-2021 17:42:27 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (cc41353a8d5bc6cda7fb71ccdcb02f75)] -> xpath: //input[@type='submit']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 14613
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720707.594][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:41:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTests" time="0">
+    <system-out><![CDATA[08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:40:44 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:40:44 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:40:44 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:40:44 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:40:44 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:40:44 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:40:44 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:40:44 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:40:44 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:40:46 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:40:46 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:40:51 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:40:51 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:40:51 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:40:51 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:40:51 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:40:51 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:40:52 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:40:52 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (354d2d22e0e08225a01de7224500d91a)] -> xpath: //input[@type='submit']]
+08-23-2021 17:40:56 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (354d2d22e0e08225a01de7224500d91a)] -> xpath: //input[@type='submit']]
+08-23-2021 17:40:56 HomePageTests.java INFO  [main] testcases.HomePageTests 42 - Validating Home Page Title
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 33640
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720646.093][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:40:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageUserNameLabelTest" classname="com.crm.qa.testcases.HomePageTests" time="0.275">
+    <system-out><![CDATA[08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:41:18 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:41:18 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:41:18 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:41:18 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:41:18 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:41:18 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:41:18 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:41:18 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:41:18 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:41:20 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:41:20 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:41:25 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:41:25 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:41:25 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:41:25 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:41:25 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:41:26 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:41:26 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:41:26 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (b0f8fc20e275d30c5d6b968aed68e7bb)] -> xpath: //input[@type='submit']]
+08-23-2021 17:41:30 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (b0f8fc20e275d30c5d6b968aed68e7bb)] -> xpath: //input[@type='submit']]
+08-23-2021 17:41:30 HomePageTests.java INFO  [main] testcases.HomePageTests 48 - Validating Home Page UserName Label
+08-23-2021 17:41:31 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //td[contains(text(),'User: group automation')]
+08-23-2021 17:41:31 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //td[contains(text(),'User: group automation')]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 35266
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720680.231][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:41:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTests" time="3.113">
+    <system-out><![CDATA[08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:42:27 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:42:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:42:27 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:42:27 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:42:27 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:42:27 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:42:27 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:42:27 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:42:27 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:42:29 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:42:29 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:42:34 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:42:34 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:42:34 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:42:34 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:42:34 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:42:34 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:42:34 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:42:34 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (cfc2708916e5cc23c38bbda567fe3957)] -> xpath: //input[@type='submit']]
+08-23-2021 17:43:08 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (cfc2708916e5cc23c38bbda567fe3957)] -> xpath: //input[@type='submit']]
+08-23-2021 17:43:08 HomePageTests.java INFO  [main] testcases.HomePageTests 55 - Validating Contacts Page Link on Home Page
+08-23-2021 17:43:08 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:43:08 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:43:08 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (cfc2708916e5cc23c38bbda567fe3957)] -> xpath: //a[contains(text(),'Contacts')]]
+08-23-2021 17:43:11 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (cfc2708916e5cc23c38bbda567fe3957)] -> xpath: //a[contains(text(),'Contacts')]]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 39040
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720749.151][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:42:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsLinkHover" classname="com.crm.qa.testcases.HomePageTests" time="0.558">
+    <system-out><![CDATA[08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:43:27 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:43:27 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:43:27 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:43:27 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:43:27 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:43:27 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:43:27 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:43:27 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:43:27 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:43:28 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:43:28 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:43:33 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:43:33 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:43:33 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:43:33 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:43:33 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:43:33 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:43:33 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:43:33 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (3d809a04fd6610bc670216e42b67ecd0)] -> xpath: //input[@type='submit']]
+08-23-2021 17:43:38 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (3d809a04fd6610bc670216e42b67ecd0)] -> xpath: //input[@type='submit']]
+08-23-2021 17:43:38 HomePageTests.java INFO  [main] testcases.HomePageTests 63 - Validating various Hover links for Contacts Link on Home Page
+08-23-2021 17:43:38 WebEventListener.java INFO  [Forwarding actions on session 3d809a04fd6610bc670216e42b67ecd0 to remote] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:43:38 WebEventListener.java INFO  [Forwarding actions on session 3d809a04fd6610bc670216e42b67ecd0 to remote] listener.WebEventListener 80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:43:38 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+08-23-2021 17:43:38 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 46779
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720808.640][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:43:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsPageTitleTest" classname="com.crm.qa.testcases.ContactsPageTests" time="1.715">
+    <system-out><![CDATA[08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:40:57 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:40:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:40:57 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:40:57 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:40:57 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:40:57 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:40:57 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:40:57 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:40:57 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:40:59 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:40:59 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:41:03 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:41:03 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:41:03 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:41:03 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:41:03 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:41:04 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:41:04 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:41:04 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (b04e29162172534e11a387bd4ecc1a13)] -> xpath: //input[@type='submit']]
+08-23-2021 17:41:09 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (b04e29162172534e11a387bd4ecc1a13)] -> xpath: //input[@type='submit']]
+08-23-2021 17:41:09 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:41:09 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:41:09 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (b04e29162172534e11a387bd4ecc1a13)] -> xpath: //a[contains(text(),'Contacts')]]
+08-23-2021 17:41:10 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (b04e29162172534e11a387bd4ecc1a13)] -> xpath: //a[contains(text(),'Contacts')]]
+08-23-2021 17:41:10 ContactsPageTests.java INFO  [main] testcases.ContactsPageTests 53 - Validating Contacts Page Title
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 37070
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720658.891][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:40:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsPageLabelTest" classname="com.crm.qa.testcases.ContactsPageTests" time="1.903">
+    <system-out><![CDATA[08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:41:31 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:41:31 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:41:31 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:41:31 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:41:31 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:41:31 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:41:31 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:41:31 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:41:31 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:41:33 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:41:33 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:41:38 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:41:38 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:41:38 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:41:38 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:41:38 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:41:38 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:41:38 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:41:38 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d4744313d8dc48add606115759c29488)] -> xpath: //input[@type='submit']]
+08-23-2021 17:41:43 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d4744313d8dc48add606115759c29488)] -> xpath: //input[@type='submit']]
+08-23-2021 17:41:43 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:41:43 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:41:43 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d4744313d8dc48add606115759c29488)] -> xpath: //a[contains(text(),'Contacts')]]
+08-23-2021 17:41:45 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d4744313d8dc48add606115759c29488)] -> xpath: //a[contains(text(),'Contacts')]]
+08-23-2021 17:41:45 ContactsPageTests.java INFO  [main] testcases.ContactsPageTests 61 - Validating Contacts Page Label
+08-23-2021 17:41:45 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //td[contains(text(),'Contacts')]
+08-23-2021 17:41:45 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //td[contains(text(),'Contacts')]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 6086
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720693.230][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:41:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactsTest" classname="com.crm.qa.testcases.ContactsPageTests" time="2.11">
+    <system-out><![CDATA[08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:43:12 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:43:12 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:43:12 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:43:12 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:43:12 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:43:12 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:43:12 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:43:12 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:43:12 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:43:14 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:43:14 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:43:18 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:43:18 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:43:18 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:43:18 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:43:19 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:43:19 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:43:19 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:43:19 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //input[@type='submit']]
+08-23-2021 17:43:24 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //input[@type='submit']]
+08-23-2021 17:43:24 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:43:24 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:43:24 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //a[contains(text(),'Contacts')]]
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //a[contains(text(),'Contacts')]]
+08-23-2021 17:43:26 ContactsPageTests.java INFO  [main] testcases.ContactsPageTests 69 - Validating Contacts
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']]
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']]
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+08-23-2021 17:43:26 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 12385
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720793.962][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:43:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreateContactTest[Mr., Samar, Sadabahar, Sharma, Microsoft](1)" classname="com.crm.qa.testcases.ContactsPageTests" time="5.337">
+    <system-out><![CDATA[08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:43:40 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:43:40 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:43:40 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:43:40 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:43:40 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:43:40 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:43:40 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:43:40 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:43:40 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:43:41 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:43:41 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:43:46 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:43:46 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:43:46 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:43:47 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:43:47 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:43:47 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:43:47 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:43:47 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //input[@type='submit']]
+08-23-2021 17:43:51 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //input[@type='submit']]
+08-23-2021 17:43:51 ContactsPageTests.java INFO  [main] testcases.ContactsPageTests 79 - Validating Creation of new contact
+08-23-2021 17:43:51 WebEventListener.java INFO  [Forwarding actions on session d5d9aa8ca3b8c360e529ca4c1f4330cc to remote] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:43:52 WebEventListener.java INFO  [Forwarding actions on session d5d9aa8ca3b8c360e529ca4c1f4330cc to remote] listener.WebEventListener 80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:43:52 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+08-23-2021 17:43:52 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+08-23-2021 17:43:52 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //select[@class='select' and @name = 'title']
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //select[@class='select' and @name = 'title']
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[[[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@name='first_name']
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@name='first_name']
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@name='middle_initial']
+08-23-2021 17:43:54 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@name='middle_initial']
+08-23-2021 17:43:55 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@name='surname']
+08-23-2021 17:43:55 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@name='surname']
+08-23-2021 17:43:55 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+08-23-2021 17:43:55 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@name='client_lookup']
+08-23-2021 17:43:55 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit' and @value='Save']
+08-23-2021 17:43:55 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit' and @value='Save']
+08-23-2021 17:43:55 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //input[@type='submit' and @value='Save']]
+08-23-2021 17:43:57 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //input[@type='submit' and @value='Save']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 42406
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720821.780][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:43:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreateContactTest[Mrs., Anupama, , Shah, DBS](2)" classname="com.crm.qa.testcases.ContactsPageTests" time="6.08">
+    <system-out><![CDATA[08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:43:57 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:43:57 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:43:57 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:43:57 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:43:57 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:43:57 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:43:57 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:43:57 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:43:57 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:43:59 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:43:59 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:44:04 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:44:04 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:44:04 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:44:04 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:44:04 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:44:04 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:44:04 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:44:04 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //input[@type='submit']]
+08-23-2021 17:45:03 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //input[@type='submit']]
+08-23-2021 17:45:03 ContactsPageTests.java INFO  [main] testcases.ContactsPageTests 79 - Validating Creation of new contact
+08-23-2021 17:45:03 WebEventListener.java INFO  [Forwarding actions on session 6d5904fb894740c3b31c46af50c350f4 to remote] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:45:03 WebEventListener.java INFO  [Forwarding actions on session 6d5904fb894740c3b31c46af50c350f4 to remote] listener.WebEventListener 80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:45:03 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+08-23-2021 17:45:03 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+08-23-2021 17:45:03 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+08-23-2021 17:45:06 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+08-23-2021 17:45:06 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //select[@class='select' and @name = 'title']
+08-23-2021 17:45:06 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //select[@class='select' and @name = 'title']
+08-23-2021 17:45:06 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Mrs."]
+08-23-2021 17:45:06 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: .//option[normalize-space(.) = "Mrs."]
+08-23-2021 17:45:06 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Mrs."]]
+08-23-2021 17:45:06 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[[[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Mrs."]]
+08-23-2021 17:45:06 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@name='first_name']
+08-23-2021 17:45:06 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@name='first_name']
+08-23-2021 17:45:07 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@name='surname']
+08-23-2021 17:45:07 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@name='surname']
+08-23-2021 17:45:07 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+08-23-2021 17:45:07 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@name='client_lookup']
+08-23-2021 17:45:07 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit' and @value='Save']
+08-23-2021 17:45:07 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit' and @value='Save']
+08-23-2021 17:45:07 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //input[@type='submit' and @value='Save']]
+08-23-2021 17:45:09 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //input[@type='submit' and @value='Save']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 18331
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720839.232][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:43:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreateContactTest[Dr., Rajan, Prasad, , Apolo](3)" classname="com.crm.qa.testcases.ContactsPageTests" time="3.092">
+    <system-out><![CDATA[08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 38 - Reading Browser Properties.....
+08-23-2021 17:45:10 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 53 - ***********************************************************************
+08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 54 - Broswer set as--->chrome
+08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 55 - Browser URL set as--->https://classic.freecrm.com/index.html
+08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 56 - Testing for Maximise Window Size--->true
+08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 57 - Testing for Headless Browser--->true
+08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 58 - User selected as--->groupautomation
+08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 59 - Password entered as--->Test@12345
+08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 60 - Browser Implicit Time selected as--->60
+08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 61 - Browser Page Load TIme selected as--->60
+08-23-2021 17:45:10 BrowserProperties.java INFO  [main] testproperties.BrowserProperties 62 - ***********************************************************************
+08-23-2021 17:45:10 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 24 - Reading Test Evidence Properties.....
+08-23-2021 17:45:10 WindowsActions.java INFO  [main] util.WindowsActions 21 - Properties File read successfully
+08-23-2021 17:45:10 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 33 - ***********************************************************************
+08-23-2021 17:45:10 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 34 - Test Evidence Folder Name set as--->Selenium_Evidence
+08-23-2021 17:45:10 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+08-23-2021 17:45:10 TestEvidenceProperties.java INFO  [main] testproperties.TestEvidenceProperties 36 - ***********************************************************************
+08-23-2021 17:45:10 WindowsActions.java INFO  [main] util.WindowsActions 30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+08-23-2021 17:45:11 TestBase.java INFO  [main] base.TestBase 54 - Driver Initialised
+08-23-2021 17:45:11 WebEventListener.java INFO  [main] listener.WebEventListener 23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+08-23-2021 17:45:16 WebEventListener.java INFO  [main] listener.WebEventListener 27 - Navigated to:'https://classic.freecrm.com/index.html'
+08-23-2021 17:45:16 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: username
+08-23-2021 17:45:16 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: username
+08-23-2021 17:45:16 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.name: password
+08-23-2021 17:45:16 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.name: password
+08-23-2021 17:45:16 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:45:16 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit']
+08-23-2021 17:45:16 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //input[@type='submit']]
+08-23-2021 17:45:21 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //input[@type='submit']]
+08-23-2021 17:45:21 ContactsPageTests.java INFO  [main] testcases.ContactsPageTests 79 - Validating Creation of new contact
+08-23-2021 17:45:21 WebEventListener.java INFO  [Forwarding actions on session 000b005a49e57db62e154748a633d460 to remote] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:45:21 WebEventListener.java INFO  [Forwarding actions on session 000b005a49e57db62e154748a633d460 to remote] listener.WebEventListener 80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+08-23-2021 17:45:22 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+08-23-2021 17:45:22 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+08-23-2021 17:45:22 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+08-23-2021 17:45:23 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+08-23-2021 17:45:23 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //select[@class='select' and @name = 'title']
+08-23-2021 17:45:23 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //select[@class='select' and @name = 'title']
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Dr."]
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: .//option[normalize-space(.) = "Dr."]
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[[[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@name='first_name']
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@name='first_name']
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@name='middle_initial']
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@name='middle_initial']
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@name='client_lookup']
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 76 - Trying to find Element By : By.xpath: //input[@type='submit' and @value='Save']
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 80 - Found Element By : By.xpath: //input[@type='submit' and @value='Save']
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //input[@type='submit' and @value='Save']]
+08-23-2021 17:45:24 WebEventListener.java INFO  [main] listener.WebEventListener 43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //input[@type='submit' and @value='Save']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 33038
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1629720911.346][WARNING]: This version of ChromeDriver has not been tested with Chrome version 92.
+Aug 23, 2021 5:45:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

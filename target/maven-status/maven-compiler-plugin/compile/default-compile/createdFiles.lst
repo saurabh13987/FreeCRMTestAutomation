@@ -1,0 +1,13 @@
+com\crm\qa\pages\ContactsPage.class
+com\crm\qa\util\DriverForBrowser.class
+com\crm\qa\pages\HomePage.class
+com\crm\qa\pages\LoginPage.class
+com\crm\qa\testproperties\TestProperties.class
+com\crm\qa\util\WindowsActions.class
+com\crm\qa\listener\WebEventListener.class
+com\crm\qa\testproperties\TestEvidenceProperties.class
+com\crm\qa\base\TestBase.class
+com\crm\qa\util\SeleniumUtilities.class
+com\crm\qa\util\ReadExcel.class
+com\crm\qa\listener\ExtentReportListener.class
+com\crm\qa\testproperties\BrowserProperties.class

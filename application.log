@@ -1,0 +1,501 @@
+2021-08-23 17:40:38,189  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:40:38,192  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:40:38,192  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:40:38,192  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:40:38,192  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:40:38,193  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:40:38,193  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:40:38,193  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:40:38,193  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:40:38,194  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:40:38,194  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:40:38,194  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:40:38,195  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:40:38,196  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:40:38,196  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:40:38,196  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:40:38,197  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:40:38,197  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:40:38,198  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:40:40,058  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:40:40,059  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:40:44,198  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:40:44,238  INFO [main] LoginPageTests:31 - Validating Login Page Title
+2021-08-23 17:40:44,837  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:40:44,838  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:40:44,839  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:40:44,839  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:40:44,840  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:40:44,840  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:40:44,841  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:40:44,841  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:40:44,842  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:40:44,842  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:40:44,843  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:40:44,844  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:40:44,844  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:40:44,845  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:40:44,846  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:40:44,847  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:40:44,847  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:40:44,848  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:40:44,849  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:40:46,327  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:40:46,327  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:40:51,080  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:40:51,083  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:40:51,202  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:40:51,696  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:40:51,757  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:40:51,943  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:40:52,009  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:40:52,010  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (354d2d22e0e08225a01de7224500d91a)] -> xpath: //input[@type='submit']]
+2021-08-23 17:40:56,849  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (354d2d22e0e08225a01de7224500d91a)] -> xpath: //input[@type='submit']]
+2021-08-23 17:40:56,884  INFO [main] HomePageTests:42 - Validating Home Page Title
+2021-08-23 17:40:57,608  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:40:57,610  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:40:57,611  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:40:57,611  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:40:57,612  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:40:57,613  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:40:57,614  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:40:57,614  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:40:57,615  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:40:57,615  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:40:57,616  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:40:57,617  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:40:57,617  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:40:57,619  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:40:57,619  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:40:57,620  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:40:57,621  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:40:57,622  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:40:57,623  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:40:59,182  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:40:59,182  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:41:03,659  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:41:03,663  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:41:03,746  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:41:03,927  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:41:03,976  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:41:04,145  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:41:04,192  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:41:04,193  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (b04e29162172534e11a387bd4ecc1a13)] -> xpath: //input[@type='submit']]
+2021-08-23 17:41:09,141  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (b04e29162172534e11a387bd4ecc1a13)] -> xpath: //input[@type='submit']]
+2021-08-23 17:41:09,290  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:41:09,349  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:41:09,350  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (b04e29162172534e11a387bd4ecc1a13)] -> xpath: //a[contains(text(),'Contacts')]]
+2021-08-23 17:41:10,866  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (b04e29162172534e11a387bd4ecc1a13)] -> xpath: //a[contains(text(),'Contacts')]]
+2021-08-23 17:41:10,874  INFO [main] ContactsPageTests:53 - Validating Contacts Page Title
+2021-08-23 17:41:11,577  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:41:11,585  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:41:11,588  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:41:11,588  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:41:11,588  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:41:11,588  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:41:11,590  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:41:11,590  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:41:11,591  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:41:11,591  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:41:11,591  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:41:11,591  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:41:11,593  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:41:11,594  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:41:11,594  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:41:11,594  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:41:11,595  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:41:11,596  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:41:11,596  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:41:13,170  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:41:13,171  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:41:18,088  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:41:18,091  INFO [main] LoginPageTests:38 - Validating Login Page CRM Logo
+2021-08-23 17:41:18,092  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //img[@class='img-responsive' and contains(@src,'logo')]
+2021-08-23 17:41:18,183  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //img[@class='img-responsive' and contains(@src,'logo')]
+2021-08-23 17:41:18,922  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:41:18,924  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:41:18,924  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:41:18,925  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:41:18,926  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:41:18,926  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:41:18,927  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:41:18,929  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:41:18,929  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:41:18,930  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:41:18,930  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:41:18,931  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:41:18,932  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:41:18,933  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:41:18,934  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:41:18,934  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:41:18,936  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:41:18,937  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:41:18,938  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:41:20,463  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:41:20,464  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:41:25,310  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:41:25,312  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:41:25,412  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:41:25,845  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:41:25,898  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:41:26,086  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:41:26,134  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:41:26,135  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (b0f8fc20e275d30c5d6b968aed68e7bb)] -> xpath: //input[@type='submit']]
+2021-08-23 17:41:30,985  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (b0f8fc20e275d30c5d6b968aed68e7bb)] -> xpath: //input[@type='submit']]
+2021-08-23 17:41:30,989  INFO [main] HomePageTests:48 - Validating Home Page UserName Label
+2021-08-23 17:41:31,114  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //td[contains(text(),'User: group automation')]
+2021-08-23 17:41:31,175  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //td[contains(text(),'User: group automation')]
+2021-08-23 17:41:31,948  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:41:31,950  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:41:31,950  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:41:31,951  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:41:31,956  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:41:31,957  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:41:31,958  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:41:31,959  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:41:31,959  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:41:31,960  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:41:31,960  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:41:31,961  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:41:31,962  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:41:31,963  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:41:31,964  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:41:31,965  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:41:31,966  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:41:31,966  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:41:31,968  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:41:33,464  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:41:33,464  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:41:38,188  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:41:38,189  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:41:38,284  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:41:38,415  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:41:38,508  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:41:38,620  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:41:38,682  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:41:38,683  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d4744313d8dc48add606115759c29488)] -> xpath: //input[@type='submit']]
+2021-08-23 17:41:43,761  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d4744313d8dc48add606115759c29488)] -> xpath: //input[@type='submit']]
+2021-08-23 17:41:43,899  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:41:43,953  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:41:43,955  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d4744313d8dc48add606115759c29488)] -> xpath: //a[contains(text(),'Contacts')]]
+2021-08-23 17:41:45,532  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d4744313d8dc48add606115759c29488)] -> xpath: //a[contains(text(),'Contacts')]]
+2021-08-23 17:41:45,535  INFO [main] ContactsPageTests:61 - Validating Contacts Page Label
+2021-08-23 17:41:45,536  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //td[contains(text(),'Contacts')]
+2021-08-23 17:41:45,588  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //td[contains(text(),'Contacts')]
+2021-08-23 17:41:46,364  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:41:46,366  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:41:46,366  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:41:46,367  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:41:46,367  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:41:46,368  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:41:46,368  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:41:46,368  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:41:46,369  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:41:46,369  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:41:46,370  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:41:46,370  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:41:46,371  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:41:46,372  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:41:46,372  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:41:46,373  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:41:46,373  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:41:46,373  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:41:46,374  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:41:47,857  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:41:47,857  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:41:52,485  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:41:52,486  INFO [main] LoginPageTests:44 - Validating User is able to login successfully
+2021-08-23 17:41:52,488  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:41:52,575  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:41:52,810  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:41:52,983  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:41:53,128  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:41:53,170  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:41:53,171  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc41353a8d5bc6cda7fb71ccdcb02f75)] -> xpath: //input[@type='submit']]
+2021-08-23 17:42:27,159  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (cc41353a8d5bc6cda7fb71ccdcb02f75)] -> xpath: //input[@type='submit']]
+2021-08-23 17:42:27,873  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:42:27,874  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:42:27,875  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:42:27,876  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:42:27,876  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:42:27,877  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:42:27,877  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:42:27,877  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:42:27,878  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:42:27,879  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:42:27,879  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:42:27,880  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:42:27,880  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:42:27,881  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:42:27,882  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:42:27,882  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:42:27,883  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:42:27,883  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:42:27,884  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:42:29,404  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:42:29,405  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:42:34,227  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:42:34,229  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:42:34,310  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:42:34,395  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:42:34,425  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:42:34,561  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:42:34,581  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:42:34,582  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (cfc2708916e5cc23c38bbda567fe3957)] -> xpath: //input[@type='submit']]
+2021-08-23 17:43:08,866  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (cfc2708916e5cc23c38bbda567fe3957)] -> xpath: //input[@type='submit']]
+2021-08-23 17:43:08,867  INFO [main] HomePageTests:55 - Validating Contacts Page Link on Home Page
+2021-08-23 17:43:08,927  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:43:08,948  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:43:08,948  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (cfc2708916e5cc23c38bbda567fe3957)] -> xpath: //a[contains(text(),'Contacts')]]
+2021-08-23 17:43:11,964  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (cfc2708916e5cc23c38bbda567fe3957)] -> xpath: //a[contains(text(),'Contacts')]]
+2021-08-23 17:43:12,657  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:43:12,658  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:43:12,659  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:43:12,660  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:43:12,660  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:43:12,661  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:43:12,661  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:43:12,662  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:43:12,662  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:43:12,663  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:43:12,663  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:43:12,664  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:43:12,664  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:43:12,665  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:43:12,666  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:43:12,666  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:43:12,667  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:43:12,667  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:43:12,669  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:43:14,179  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:43:14,179  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:43:18,872  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:43:18,873  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:43:18,909  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:43:18,985  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:43:19,011  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:43:19,065  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:43:19,088  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:43:19,088  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //input[@type='submit']]
+2021-08-23 17:43:24,708  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //input[@type='submit']]
+2021-08-23 17:43:24,823  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:43:24,875  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:43:24,881  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //a[contains(text(),'Contacts')]]
+2021-08-23 17:43:26,355  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //a[contains(text(),'Contacts')]]
+2021-08-23 17:43:26,357  INFO [main] ContactsPageTests:69 - Validating Contacts
+2021-08-23 17:43:26,358  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+2021-08-23 17:43:26,415  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+2021-08-23 17:43:26,441  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+2021-08-23 17:43:26,479  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+2021-08-23 17:43:26,509  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+2021-08-23 17:43:26,540  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+2021-08-23 17:43:26,541  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']]
+2021-08-23 17:43:26,772  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d9f3b6253e2ef1bc455ae328ed5680af)] -> xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']]
+2021-08-23 17:43:26,773  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+2021-08-23 17:43:26,808  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //a[text()='amruta dhale']/parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+2021-08-23 17:43:27,506  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:43:27,507  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:43:27,508  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:43:27,508  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:43:27,508  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:43:27,509  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:43:27,509  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:43:27,510  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:43:27,510  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:43:27,511  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:43:27,511  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:43:27,511  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:43:27,512  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:43:27,512  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:43:27,513  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:43:27,513  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:43:27,514  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:43:27,514  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:43:27,515  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:43:28,904  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:43:28,905  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:43:33,188  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:43:33,190  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:43:33,278  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:43:33,573  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:43:33,599  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:43:33,777  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:43:33,822  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:43:33,823  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (3d809a04fd6610bc670216e42b67ecd0)] -> xpath: //input[@type='submit']]
+2021-08-23 17:43:38,225  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (3d809a04fd6610bc670216e42b67ecd0)] -> xpath: //input[@type='submit']]
+2021-08-23 17:43:38,228  INFO [main] HomePageTests:63 - Validating various Hover links for Contacts Link on Home Page
+2021-08-23 17:43:38,354  INFO [Forwarding actions on session 3d809a04fd6610bc670216e42b67ecd0 to remote] WebEventListener:76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:43:38,394  INFO [Forwarding actions on session 3d809a04fd6610bc670216e42b67ecd0 to remote] WebEventListener:80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:43:38,631  INFO [main] WebEventListener:76 - Trying to find Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+2021-08-23 17:43:38,682  INFO [main] WebEventListener:80 - Found Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+2021-08-23 17:43:40,660  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:43:40,661  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:43:40,661  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:43:40,661  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:43:40,661  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:43:40,661  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:43:40,661  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:43:40,662  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:43:40,662  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:43:40,662  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:43:40,662  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:43:40,662  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:43:40,662  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:43:40,663  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:43:40,663  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:43:40,663  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:43:40,663  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:43:40,663  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:43:40,663  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:43:41,984  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:43:41,984  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:43:46,738  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:43:46,739  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:43:46,829  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:43:47,212  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:43:47,259  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:43:47,429  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:43:47,482  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:43:47,483  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //input[@type='submit']]
+2021-08-23 17:43:51,886  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //input[@type='submit']]
+2021-08-23 17:43:51,889  INFO [main] ContactsPageTests:79 - Validating Creation of new contact
+2021-08-23 17:43:51,996  INFO [Forwarding actions on session d5d9aa8ca3b8c360e529ca4c1f4330cc to remote] WebEventListener:76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:43:52,040  INFO [Forwarding actions on session d5d9aa8ca3b8c360e529ca4c1f4330cc to remote] WebEventListener:80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:43:52,275  INFO [main] WebEventListener:76 - Trying to find Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+2021-08-23 17:43:52,320  INFO [main] WebEventListener:80 - Found Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+2021-08-23 17:43:52,359  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+2021-08-23 17:43:54,356  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+2021-08-23 17:43:54,367  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //select[@class='select' and @name = 'title']
+2021-08-23 17:43:54,422  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //select[@class='select' and @name = 'title']
+2021-08-23 17:43:54,482  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
+2021-08-23 17:43:54,527  INFO [main] WebEventListener:80 - Found Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
+2021-08-23 17:43:54,555  INFO [main] WebEventListener:39 - Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+2021-08-23 17:43:54,643  INFO [main] WebEventListener:43 - Clicked on: [[[[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+2021-08-23 17:43:54,644  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@name='first_name']
+2021-08-23 17:43:54,696  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@name='first_name']
+2021-08-23 17:43:54,889  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@name='middle_initial']
+2021-08-23 17:43:54,931  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@name='middle_initial']
+2021-08-23 17:43:55,091  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@name='surname']
+2021-08-23 17:43:55,135  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@name='surname']
+2021-08-23 17:43:55,293  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2021-08-23 17:43:55,340  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@name='client_lookup']
+2021-08-23 17:43:55,503  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit' and @value='Save']
+2021-08-23 17:43:55,543  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit' and @value='Save']
+2021-08-23 17:43:55,544  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //input[@type='submit' and @value='Save']]
+2021-08-23 17:43:57,240  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (d5d9aa8ca3b8c360e529ca4c1f4330cc)] -> xpath: //input[@type='submit' and @value='Save']]
+2021-08-23 17:43:57,919  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:43:57,921  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:43:57,921  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:43:57,922  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:43:57,923  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:43:57,923  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:43:57,923  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:43:57,924  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:43:57,924  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:43:57,924  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:43:57,925  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:43:57,925  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:43:57,926  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:43:57,927  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:43:57,927  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:43:57,928  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:43:57,929  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:43:57,929  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:43:57,929  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:43:59,481  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:43:59,482  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:44:04,166  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:44:04,167  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:44:04,252  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:44:04,437  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:44:04,474  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:44:04,641  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:44:04,682  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:44:04,683  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //input[@type='submit']]
+2021-08-23 17:45:03,277  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //input[@type='submit']]
+2021-08-23 17:45:03,280  INFO [main] ContactsPageTests:79 - Validating Creation of new contact
+2021-08-23 17:45:03,388  INFO [Forwarding actions on session 6d5904fb894740c3b31c46af50c350f4 to remote] WebEventListener:76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:45:03,433  INFO [Forwarding actions on session 6d5904fb894740c3b31c46af50c350f4 to remote] WebEventListener:80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:45:03,674  INFO [main] WebEventListener:76 - Trying to find Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+2021-08-23 17:45:03,737  INFO [main] WebEventListener:80 - Found Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+2021-08-23 17:45:03,780  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+2021-08-23 17:45:06,613  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+2021-08-23 17:45:06,616  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //select[@class='select' and @name = 'title']
+2021-08-23 17:45:06,662  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //select[@class='select' and @name = 'title']
+2021-08-23 17:45:06,707  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Mrs."]
+2021-08-23 17:45:06,757  INFO [main] WebEventListener:80 - Found Element By : By.xpath: .//option[normalize-space(.) = "Mrs."]
+2021-08-23 17:45:06,784  INFO [main] WebEventListener:39 - Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Mrs."]]
+2021-08-23 17:45:06,869  INFO [main] WebEventListener:43 - Clicked on: [[[[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Mrs."]]
+2021-08-23 17:45:06,869  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@name='first_name']
+2021-08-23 17:45:06,896  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@name='first_name']
+2021-08-23 17:45:07,027  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@name='surname']
+2021-08-23 17:45:07,070  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@name='surname']
+2021-08-23 17:45:07,145  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2021-08-23 17:45:07,178  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@name='client_lookup']
+2021-08-23 17:45:07,320  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit' and @value='Save']
+2021-08-23 17:45:07,366  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit' and @value='Save']
+2021-08-23 17:45:07,367  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //input[@type='submit' and @value='Save']]
+2021-08-23 17:45:09,362  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (6d5904fb894740c3b31c46af50c350f4)] -> xpath: //input[@type='submit' and @value='Save']]
+2021-08-23 17:45:10,037  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-23 17:45:10,039  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:45:10,039  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-23 17:45:10,040  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-23 17:45:10,040  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-23 17:45:10,040  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-23 17:45:10,041  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-23 17:45:10,041  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-23 17:45:10,042  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-23 17:45:10,042  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-23 17:45:10,043  INFO [main] BrowserProperties:61 - Browser Page Load TIme selected as--->60
+2021-08-23 17:45:10,043  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-23 17:45:10,043  INFO [main] TestEvidenceProperties:24 - Reading Test Evidence Properties.....
+2021-08-23 17:45:10,044  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-23 17:45:10,045  INFO [main] TestEvidenceProperties:33 - ***********************************************************************
+2021-08-23 17:45:10,045  INFO [main] TestEvidenceProperties:34 - Test Evidence Folder Name set as--->Selenium_Evidence
+2021-08-23 17:45:10,046  INFO [main] TestEvidenceProperties:35 - Test Evidence Folder Path set as--->C:\Users\Saurabh\OneDrive\Desktop
+2021-08-23 17:45:10,046  INFO [main] TestEvidenceProperties:36 - ***********************************************************************
+2021-08-23 17:45:10,047  INFO [main] WindowsActions:30 - C:\Users\Saurabh\OneDrive\Desktop\Selenium_Evidence--->Folder already exists
+2021-08-23 17:45:11,610  INFO [main] TestBase:54 - Driver Initialised
+2021-08-23 17:45:11,611  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
+2021-08-23 17:45:16,357  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
+2021-08-23 17:45:16,358  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: username
+2021-08-23 17:45:16,410  INFO [main] WebEventListener:80 - Found Element By : By.name: username
+2021-08-23 17:45:16,595  INFO [main] WebEventListener:76 - Trying to find Element By : By.name: password
+2021-08-23 17:45:16,641  INFO [main] WebEventListener:80 - Found Element By : By.name: password
+2021-08-23 17:45:16,897  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:45:16,916  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit']
+2021-08-23 17:45:16,917  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //input[@type='submit']]
+2021-08-23 17:45:21,880  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //input[@type='submit']]
+2021-08-23 17:45:21,882  INFO [main] ContactsPageTests:79 - Validating Creation of new contact
+2021-08-23 17:45:21,962  INFO [Forwarding actions on session 000b005a49e57db62e154748a633d460 to remote] WebEventListener:76 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:45:21,982  INFO [Forwarding actions on session 000b005a49e57db62e154748a633d460 to remote] WebEventListener:80 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2021-08-23 17:45:22,157  INFO [main] WebEventListener:76 - Trying to find Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+2021-08-23 17:45:22,206  INFO [main] WebEventListener:80 - Found Element By : By.all({By.xpath: //a[text()='Contacts']/parent::li//ul//a})
+2021-08-23 17:45:22,243  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+2021-08-23 17:45:23,890  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //a[text()='Contacts']/parent::li//ul//a]
+2021-08-23 17:45:23,894  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //select[@class='select' and @name = 'title']
+2021-08-23 17:45:23,965  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //select[@class='select' and @name = 'title']
+2021-08-23 17:45:24,018  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Dr."]
+2021-08-23 17:45:24,065  INFO [main] WebEventListener:80 - Found Element By : By.xpath: .//option[normalize-space(.) = "Dr."]
+2021-08-23 17:45:24,095  INFO [main] WebEventListener:39 - Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+2021-08-23 17:45:24,200  INFO [main] WebEventListener:43 - Clicked on: [[[[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //select[@class='select' and @name = 'title']]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+2021-08-23 17:45:24,201  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@name='first_name']
+2021-08-23 17:45:24,252  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@name='first_name']
+2021-08-23 17:45:24,422  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@name='middle_initial']
+2021-08-23 17:45:24,473  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@name='middle_initial']
+2021-08-23 17:45:24,634  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2021-08-23 17:45:24,673  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@name='client_lookup']
+2021-08-23 17:45:24,804  INFO [main] WebEventListener:76 - Trying to find Element By : By.xpath: //input[@type='submit' and @value='Save']
+2021-08-23 17:45:24,830  INFO [main] WebEventListener:80 - Found Element By : By.xpath: //input[@type='submit' and @value='Save']
+2021-08-23 17:45:24,830  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //input[@type='submit' and @value='Save']]
+2021-08-23 17:45:24,980  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (000b005a49e57db62e154748a633d460)] -> xpath: //input[@type='submit' and @value='Save']]
+2021-08-23 17:45:26,302 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-23 17:45:26,306 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-08-23 17:45:26,310 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-08-23 17:45:26,313 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-08-23 17:45:26,314 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-08-23 17:45:26,763 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-23 17:45:26,764 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-08-23 17:45:26,764 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-08-23 17:45:26,765 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-08-23 17:45:26,765 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
