@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="headlessBrowser" value="param-val-not-found"/>
+  <parameter name="implicitWait" value="param-val-not-found"/>
+  <parameter name="password" value="param-val-not-found"/>
+  <parameter name="pageLoadWait" value="param-val-not-found"/>
+  <parameter name="browser" value="param-val-not-found"/>
+  <parameter name="browserUrl" value="param-val-not-found"/>
+  <parameter name="browserDriverPath" value="param-val-not-found"/>
+  <parameter name="maximiseBrowser" value="param-val-not-found"/>
+  <parameter name="userName" value="param-val-not-found"/>
   <test name="Default test(failed)">
     <classes>
       <class name="com.crm.qa.testcases.ContactsPageTests">
         <methods>
-          <include name="verifyContactsPageTitleTest"/>
           <include name="setup"/>
+          <include name="verifyCreateContactTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTests -->

@@ -14,7 +14,8 @@ import com.crm.qa.util.DriverForBrowser;
 public class TestBase {
 
 	public static WebDriver driver;
-	public final static String propertiesFileName = "\\src\\main\\java\\com\\crm\\qa\\config\\config.properties";
+	public final static String propertiesFileName = "/src/main/java/com/crm/qa/config/config.properties";
+	public final static String testEvidenceFolder = "/screenshots/";
 
 	public static TestProperties testProperties;
 	public static WindowsActions windowsActions;
@@ -46,10 +47,7 @@ public class TestBase {
 			driverForBrowser = new DriverForBrowser();
 
 			testProperties.setBrowserprops(propertiesFileName, browserParams);
-			testProperties.setTestEvidenceProps(propertiesFileName);
 
-			String evidenceFolder = testProperties.getTestEvidenceProps().getTestEvidenceFolderFullPath();
-			windowsActions.isFolderPresent(evidenceFolder);
 			driver = driverForBrowser.getDriver(testProperties);
 			logger.info("Driver Initialised");
 

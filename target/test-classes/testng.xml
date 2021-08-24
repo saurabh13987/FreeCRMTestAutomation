@@ -10,9 +10,18 @@
 	</listeners>
 
 	<test name="FreeCRM App Test Cases">
+		<parameter name="browser" value="chrome" />
+		<parameter name="headlessBrowser" value="true" />
+		<parameter name="maximiseBrowser" value="true" />
+		<parameter name="browserDriverPath"
+			value="\src\test\resources\webDrivers\" />
+		<parameter name="browserUrl"
+			value="https://classic.freecrm.com/index.html" />
+		<parameter name="userName" value="groupautomation" />
+		<parameter name="password" value="Test@12345" />
+		<parameter name="implicitWait" value="60" />
+		<parameter name="pageLoadWait" value="60" />
 		<classes>
-			<class name="com.crm.qa.testcases.LoginPageTests" />
-			<class name="com.crm.qa.testcases.HomePageTests" />
 			<class name="com.crm.qa.testcases.ContactsPageTests" />
 		</classes>
 	</test>

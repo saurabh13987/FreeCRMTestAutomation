@@ -21,18 +21,20 @@ public class DriverForBrowser {
 	public WebDriver getDriver(TestProperties testProperties) {
 
 		String browser = testProperties.getBrowserProps().getBrowser();
-		String browserPath = testProperties.getBrowserProps().getBrowserPath();
+		String driverPath = testProperties.getBrowserProps().getBrowserPath();
 		int implicitWait = testProperties.getBrowserProps().getImplicitWait();
 		int pageLoadWait = testProperties.getBrowserProps().getPageLoadWait();
 		boolean headlessBrowser = testProperties.getBrowserProps().isHeadless();
 
+		driverPath = System.getProperty("user.dir") + driverPath;
+
 		switch (browser.toLowerCase()) {
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver", browserPath + "\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", driverPath + "geckodriver.exe");
 			driver = new FirefoxDriver();
 			break;
 		case "chrome":
-			System.setProperty("webdriver.chrome.driver", browserPath + "\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver.exe");
 			if (headlessBrowser) {
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
@@ -42,11 +44,11 @@ public class DriverForBrowser {
 				driver = new ChromeDriver();
 			break;
 		case "edge":
-			System.setProperty("webdriver.edge.driver", browserPath + "\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", driverPath + "msedgedriver.exe");
 			driver = new EdgeDriver();
 			break;
 		default:
-			System.setProperty("webdriver.chrome.driver", browserPath + "\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver.exe");
 			driver = new ChromeDriver();
 			break;
 		}

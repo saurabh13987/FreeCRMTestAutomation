@@ -62,9 +62,7 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	public void onException(Throwable error, WebDriver driver) {
 		logger.info("Exception occured: " + error);
 		try {
-			seleniumUtils
-					.takeScreenshotAtEndOfTest(testProperties.getTestEvidenceProps().getTestEvidenceFolderFullPath()
-							+ "\\test_" + windowsActions.getTimeStamp() + ".png");
+			seleniumUtils.takeScreenshotAtEndOfTest(TestBase.testEvidenceFolder + System.currentTimeMillis() + ".png");
 		} catch (IOException exception) {
 			StringWriter exceptionLogs = new StringWriter();
 			exception.printStackTrace(new PrintWriter(exceptionLogs));

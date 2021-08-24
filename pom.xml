@@ -27,24 +27,12 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<systemPropertyVariables>
-						<browser>chrome</browser>
-						<headlessBrowser>true</headlessBrowser>
-						<maximiseBrowser>true</maximiseBrowser>
-						<browserDriverPath>C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities</browserDriverPath>
-						<browserUrl>https://classic.freecrm.com/index.html</browserUrl>
-						<userName>groupautomation</userName>
-						<password>Test@12345</password>
-						<implicitWait>60</implicitWait>
-						<pageLoadWait>60</pageLoadWait>
-					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
 
 	<dependencies>
-
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>

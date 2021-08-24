@@ -22,8 +22,11 @@ public class ContactsPageTests extends TestBase {
 	SeleniumUtilities seleniumUtils;
 	ReadExcel readExcelData;
 	private Logger logger = Logger.getLogger(this.getClass());
-	public final String testDataFile = "C:\\Users\\Saurabh\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\testdata\\freecrm_data.xlsx";
+
+	public final String testFileName = "freecrm_data.xlsx";
 	public final String testSheetName = "contacts";
+	public final String testDataFile = System.getProperty("user.dir") + "/src/main/java/com/crm/qa/testdata/"
+			+ testFileName;
 
 	@DataProvider
 	public Object[][] getContactsTestData() {

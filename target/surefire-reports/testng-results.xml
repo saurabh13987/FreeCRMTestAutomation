@@ -1,436 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="FreeCRM Application Test Automation Suite" duration-ms="287451" started-at="2021-08-23T12:10:38Z" finished-at="2021-08-23T12:15:25Z">
+  <suite name="FreeCRM Application Test Automation Suite" duration-ms="45380" started-at="2021-08-24T13:56:34Z" finished-at="2021-08-24T13:57:20Z">
     <groups>
-      <group name="Home Page Links Options">
-        <method signature="HomePageTests.verifyContactsLinkHover()[pri:4, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="verifyContactsLinkHover" class="com.crm.qa.testcases.HomePageTests"/>
-      </group> <!-- Home Page Links Options -->
-      <group name="Home Page Links">
-        <method signature="HomePageTests.verifyContactsLinkTest()[pri:3, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="verifyContactsLinkTest" class="com.crm.qa.testcases.HomePageTests"/>
-      </group> <!-- Home Page Links -->
     </groups>
-    <test name="FreeCRM App Test Cases" duration-ms="287451" started-at="2021-08-23T12:10:38Z" finished-at="2021-08-23T12:15:25Z">
-      <class name="com.crm.qa.testcases.LoginPageTests">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTests@508ed1]" name="setup" is-config="true" duration-ms="6062" started-at="2021-08-23T17:40:38Z" finished-at="2021-08-23T17:40:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTests@508ed1]" name="verifyloginPageTitleTest" duration-ms="20" started-at="2021-08-23T17:40:44Z" finished-at="2021-08-23T17:40:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyloginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTests@508ed1]" name="tearDown" is-config="true" duration-ms="574" started-at="2021-08-23T17:40:44Z" finished-at="2021-08-23T17:40:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTests@508ed1]" name="setup" is-config="true" duration-ms="6514" started-at="2021-08-23T17:41:11Z" finished-at="2021-08-23T17:41:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifycrmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTests@508ed1]" name="verifycrmLogoImageTest" duration-ms="203" started-at="2021-08-23T17:41:18Z" finished-at="2021-08-23T17:41:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifycrmLogoImageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTests@508ed1]" name="tearDown" is-config="true" duration-ms="627" started-at="2021-08-23T17:41:18Z" finished-at="2021-08-23T17:41:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.LoginPageTests@508ed1]" name="setup" is-config="true" duration-ms="6122" started-at="2021-08-23T17:41:46Z" finished-at="2021-08-23T17:41:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTests@508ed1]" name="verifyloginTest" duration-ms="34691" started-at="2021-08-23T17:41:52Z" finished-at="2021-08-23T17:42:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyloginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTests@508ed1]" name="tearDown" is-config="true" duration-ms="693" started-at="2021-08-23T17:42:27Z" finished-at="2021-08-23T17:42:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.LoginPageTests -->
-      <class name="com.crm.qa.testcases.HomePageTests">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="setup" is-config="true" duration-ms="12047" started-at="2021-08-23T17:40:44Z" finished-at="2021-08-23T17:40:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="verifyHomePageTitleTest" duration-ms="24" started-at="2021-08-23T17:40:56Z" finished-at="2021-08-23T17:40:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="tearDown" is-config="true" duration-ms="698" started-at="2021-08-23T17:40:56Z" finished-at="2021-08-23T17:40:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="setup" is-config="true" duration-ms="12066" started-at="2021-08-23T17:41:18Z" finished-at="2021-08-23T17:41:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomePageUserNameLabelTest()[pri:2, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="verifyHomePageUserNameLabelTest" duration-ms="286" started-at="2021-08-23T17:41:30Z" finished-at="2021-08-23T17:41:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageUserNameLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="tearDown" is-config="true" duration-ms="671" started-at="2021-08-23T17:41:31Z" finished-at="2021-08-23T17:41:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="setup" is-config="true" duration-ms="40995" started-at="2021-08-23T17:42:27Z" finished-at="2021-08-23T17:43:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:3, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="verifyContactsLinkTest" duration-ms="3115" started-at="2021-08-23T17:43:08Z" finished-at="2021-08-23T17:43:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="tearDown" is-config="true" duration-ms="673" started-at="2021-08-23T17:43:11Z" finished-at="2021-08-23T17:43:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="setup" is-config="true" duration-ms="10722" started-at="2021-08-23T17:43:27Z" finished-at="2021-08-23T17:43:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyContactsLinkHover()[pri:4, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="verifyContactsLinkHover" duration-ms="566" started-at="2021-08-23T17:43:38Z" finished-at="2021-08-23T17:43:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsLinkHover -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTests@1e36e46]" name="tearDown" is-config="true" duration-ms="655" started-at="2021-08-23T17:43:38Z" finished-at="2021-08-23T17:43:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.HomePageTests -->
+    <test name="FreeCRM App Test Cases" duration-ms="45380" started-at="2021-08-24T13:56:34Z" finished-at="2021-08-24T13:57:20Z">
       <class name="com.crm.qa.testcases.ContactsPageTests">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="setup" is-config="true" duration-ms="11536" started-at="2021-08-23T17:40:57Z" finished-at="2021-08-23T17:41:09Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@111c2a7]" name="setup" is-config="true" duration-ms="10909" started-at="2021-08-24T19:26:35Z" finished-at="2021-08-24T19:26:46Z">
           <params>
             <param index="0">
               <value>
@@ -481,184 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="verifyContactsPageTitleTest" duration-ms="1749" started-at="2021-08-23T17:41:09Z" finished-at="2021-08-23T17:41:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="tearDown" is-config="true" duration-ms="682" started-at="2021-08-23T17:41:10Z" finished-at="2021-08-23T17:41:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="setup" is-config="true" duration-ms="11817" started-at="2021-08-23T17:41:31Z" finished-at="2021-08-23T17:41:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyContactsPageLabelTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="verifyContactsPageLabelTest" duration-ms="1912" started-at="2021-08-23T17:41:43Z" finished-at="2021-08-23T17:41:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsPageLabelTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="tearDown" is-config="true" duration-ms="686" started-at="2021-08-23T17:41:45Z" finished-at="2021-08-23T17:41:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="setup" is-config="true" duration-ms="12053" started-at="2021-08-23T17:43:12Z" finished-at="2021-08-23T17:43:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyContactsTest()[pri:3, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="verifyContactsTest" duration-ms="2115" started-at="2021-08-23T17:43:24Z" finished-at="2021-08-23T17:43:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="tearDown" is-config="true" duration-ms="678" started-at="2021-08-23T17:43:26Z" finished-at="2021-08-23T17:43:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="setup" is-config="true" duration-ms="11229" started-at="2021-08-23T17:43:40Z" finished-at="2021-08-23T17:43:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[C:\\Users\\Saurabh\\OneDrive\\Desktop\\Utilities]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCreateContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="verifyCreateContactTest" duration-ms="5352" started-at="2021-08-23T17:43:51Z" data-provider="getContactsTestData" finished-at="2021-08-23T17:43:57Z">
+        <test-method status="PASS" signature="verifyCreateContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTests@111c2a7]" name="verifyCreateContactTest" duration-ms="3584" started-at="2021-08-24T19:26:46Z" data-provider="getContactsTestData" finished-at="2021-08-24T19:26:49Z">
           <params>
             <param index="0">
               <value>
@@ -689,11 +89,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="tearDown" is-config="true" duration-ms="677" started-at="2021-08-23T17:43:57Z" finished-at="2021-08-23T17:43:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@111c2a7]" name="tearDown" is-config="true" duration-ms="576" started-at="2021-08-24T19:26:49Z" finished-at="2021-08-24T19:26:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="setup" is-config="true" duration-ms="65361" started-at="2021-08-23T17:43:57Z" finished-at="2021-08-23T17:45:03Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@111c2a7]" name="setup" is-config="true" duration-ms="13362" started-at="2021-08-24T19:26:50Z" finished-at="2021-08-24T19:27:03Z">
           <params>
             <param index="0">
               <value>
@@ -744,7 +144,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCreateContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="verifyCreateContactTest" duration-ms="6083" started-at="2021-08-23T17:45:03Z" data-provider="getContactsTestData" finished-at="2021-08-23T17:45:09Z">
+        <test-method status="PASS" signature="verifyCreateContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTests@111c2a7]" name="verifyCreateContactTest" duration-ms="3278" started-at="2021-08-24T19:27:03Z" data-provider="getContactsTestData" finished-at="2021-08-24T19:27:06Z">
           <params>
             <param index="0">
               <value>
@@ -775,11 +175,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="tearDown" is-config="true" duration-ms="673" started-at="2021-08-23T17:45:09Z" finished-at="2021-08-23T17:45:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@111c2a7]" name="tearDown" is-config="true" duration-ms="572" started-at="2021-08-24T19:27:06Z" finished-at="2021-08-24T19:27:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="setup" is-config="true" duration-ms="11844" started-at="2021-08-23T17:45:10Z" finished-at="2021-08-23T17:45:21Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@111c2a7]" name="setup" is-config="true" duration-ms="10256" started-at="2021-08-24T19:27:07Z" finished-at="2021-08-24T19:27:17Z">
           <params>
             <param index="0">
               <value>
@@ -830,7 +230,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyCreateContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="verifyCreateContactTest" duration-ms="3098" started-at="2021-08-23T17:45:21Z" data-provider="getContactsTestData" finished-at="2021-08-23T17:45:24Z">
+        <test-method status="PASS" signature="verifyCreateContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTests@111c2a7]" name="verifyCreateContactTest" duration-ms="1873" started-at="2021-08-24T19:27:17Z" data-provider="getContactsTestData" finished-at="2021-08-24T19:27:19Z">
           <params>
             <param index="0">
               <value>
@@ -861,7 +261,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@1c43bd9]" name="tearDown" is-config="true" duration-ms="624" started-at="2021-08-23T17:45:24Z" finished-at="2021-08-23T17:45:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@111c2a7]" name="tearDown" is-config="true" duration-ms="576" started-at="2021-08-24T19:27:19Z" finished-at="2021-08-24T19:27:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

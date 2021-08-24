@@ -5,34 +5,21 @@
     <listener class-name="com.crm.qa.listener.ExtentReportListener"/>
   </listeners>
   <test name="FreeCRM App Test Cases(failed)">
+    <parameter name="headlessBrowser" value="true"/>
+    <parameter name="implicitWait" value="60"/>
+    <parameter name="password" value="Test@12345"/>
+    <parameter name="pageLoadWait" value="60"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserUrl" value="https://classic.freecrm.com/index.html"/>
+    <parameter name="browserDriverPath" value="\src\test\resources\"/>
+    <parameter name="maximiseBrowser" value="true"/>
+    <parameter name="userName" value="groupautomation"/>
     <classes>
-      <class name="com.crm.qa.testcases.HomePageTests">
-        <methods>
-          <include name="verifyHomePageUserNameLabelTest"/>
-          <include name="verifyContactsLinkHover"/>
-          <include name="verifyContactsLinkTest"/>
-          <include name="tearDown"/>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.HomePageTests -->
-      <class name="com.crm.qa.testcases.LoginPageTests">
-        <methods>
-          <include name="verifyloginPageTitleTest"/>
-          <include name="verifycrmLogoImageTest"/>
-          <include name="verifyloginTest"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.LoginPageTests -->
       <class name="com.crm.qa.testcases.ContactsPageTests">
         <methods>
           <include name="verifyContactsPageTitleTest"/>
           <include name="setup"/>
-          <include name="verifyCreateContactTest"/>
           <include name="tearDown"/>
-          <include name="verifyContactsPageLabelTest"/>
-          <include name="verifyContactsTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTests -->
     </classes>
