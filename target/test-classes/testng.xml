@@ -23,6 +23,8 @@
 		<parameter name="pageLoadWait" value="60" />
 		<classes>
 			<class name="com.crm.qa.testcases.ContactsPageTests" />
+			<class name="com.crm.qa.testcases.LoginPageTests" />
+			<class name="com.crm.qa.testcases.HomePageTests" />
 		</classes>
 	</test>
 </suite>
