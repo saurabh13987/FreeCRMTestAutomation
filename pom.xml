@@ -25,13 +25,12 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testngMaven.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/${xmlFile}.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
-						<browser>chrome</browser>
-						<browserUrl>https://classic.freecrm.com/index.html</browserUrl>
-						<userName>groupautomation</userName>
-						<password>Test@12345</password>
+						<browser>${browser}</browser>
+						<userName>${username}</userName>
+						<password>${password}</password>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
