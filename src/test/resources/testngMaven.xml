@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="FreeCRM Application Test Automation Suite"
+	verbose="1">
+
+	<listeners>
+		<listener
+			class-name="com.crm.qa.listener.ExtentReportListener" />
+	</listeners>
+
+	<test name="FreeCRM App Test Cases">
+		<parameter name="headlessBrowser" value="true" />
+		<parameter name="maximiseBrowser" value="true" />
+		<parameter name="browserDriverPath"
+			value="\src\test\resources\webDrivers\" />
+		<parameter name="implicitWait" value="60" />
+		<parameter name="pageLoadWait" value="60" />
+		<classes>
+			<class name="com.crm.qa.testcases.ContactsPageTests" />
+			<class name="com.crm.qa.testcases.LoginPageTests" />
+			<class name="com.crm.qa.testcases.HomePageTests" />
+		</classes>
+	</test>
+</suite>
