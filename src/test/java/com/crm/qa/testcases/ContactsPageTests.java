@@ -65,7 +65,7 @@ public class ContactsPageTests extends TestBase {
 		Assert.assertTrue(contactsPage.getContactsLabel().isDisplayed());
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3, enabled = false)
 	public void verifyContactsTest() {
 		seleniumUtils.switchToFrame("mainpanel");
 		contactsPage = homePage.getContactsPage();
@@ -76,7 +76,7 @@ public class ContactsPageTests extends TestBase {
 		Assert.assertTrue(contactsPage.getContactName("amruta dhale").isSelected());
 	}
 
-	@Test(priority = 4, dataProvider = "getContactsTestData")
+	@Test(priority = 4, dataProvider = "getContactsTestData", enabled = false)
 	public void verifyCreateContactTest(String title, String firstName, String middleName, String lastName,
 			String company) throws InterruptedException {
 		logger.info("Validating Creation of new contact");

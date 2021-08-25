@@ -50,7 +50,7 @@ public class HomePageTests extends TestBase {
 		Assert.assertTrue(homePage.getUserNameLabel("group automation").isDisplayed());
 	}
 
-	@Test(priority = 3, groups = "Home Page Links")
+	@Test(priority = 3, groups = "Home Page Links", enabled = false)
 	public void verifyContactsLinkTest() {
 		logger.info("Validating Contacts Page Link on Home Page");
 		seleniumUtils.switchToFrame("mainpanel");
@@ -58,7 +58,7 @@ public class HomePageTests extends TestBase {
 		Assert.assertEquals(driver.getTitle(), "CRMPRO");
 	}
 
-	@Test(priority = 4, groups = "Home Page Links Options")
+	@Test(priority = 4, groups = "Home Page Links Options", enabled = false)
 	public void verifyContactsLinkHover() {
 		logger.info("Validating various Hover links for Contacts Link on Home Page");
 		ArrayList<String> elementsListExpected = new ArrayList<String>();
