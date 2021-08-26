@@ -25,13 +25,8 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/${xmlFile}.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/$testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<systemPropertyVariables>
-						<browser>${browser}</browser>
-						<userName>${username}</userName>
-						<password>${password}</password>
-					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -94,6 +89,5 @@
 			<artifactId>extentreports</artifactId>
 			<version>2.41.2</version>
 		</dependency>
-
 	</dependencies>
 </project>

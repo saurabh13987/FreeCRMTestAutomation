@@ -6,6 +6,8 @@ import java.util.HashMap;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.crm.qa.testproperties.TestProperties;
 import com.crm.qa.util.WindowsActions;
@@ -24,10 +26,33 @@ public class TestBase {
 
 	private static Logger logger = Logger.getLogger(TestBase.class);
 
-	public static void browserParamsInit(String browser, String browserDriverPath, String headlessBrowser,
+	@Parameters({ "browser", "browserDriverPath", "headlessBrowser", "maximiseBrowser", "browserUrl", "userName",
+			"password", "implicitWait", "pageLoadWait" })
+	@BeforeSuite
+	public static void initialization(String browser, String browserDriverPath, String headlessBrowser,
 			String maximiseBrowser, String browserUrl, String userName, String password, String implicitWait,
 			String pageLoadWait) {
 
+		try {
+
+			browserParamsInit(browser, browserDriverPath, headlessBrowser, maximiseBrowser, browserUrl, userName,
+					password, implicitWait, pageLoadWait);
+			testProperties = new TestProperties();
+			windowsActions = new WindowsActions();
+			driverForBrowser = new DriverForBrowser();
+
+			testProperties.setBrowserprops(propertiesFileName, browserParams);
+
+		} catch (Exception exception) {
+			StringWriter exceptionLogs = new StringWriter();
+			exception.printStackTrace(new PrintWriter(exceptionLogs));
+			logger.error(exceptionLogs.toString());
+		}
+	}
+
+	public static void browserParamsInit(String browser, String browserDriverPath, String headlessBrowser,
+			String maximiseBrowser, String browserUrl, String userName, String password, String implicitWait,
+			String pageLoadWait) {
 		browserParams.put("Browser", browser);
 		browserParams.put("BrowserDriverPath", browserDriverPath);
 		browserParams.put("HeadLessBrowser", headlessBrowser);
@@ -39,24 +64,10 @@ public class TestBase {
 		browserParams.put("BrowserPageLoadWait", pageLoadWait);
 	}
 
-	public static void initialization() {
-
-		try {
-			testProperties = new TestProperties();
-			windowsActions = new WindowsActions();
-			driverForBrowser = new DriverForBrowser();
-
-			testProperties.setBrowserprops(propertiesFileName, browserParams);
-
-			driver = driverForBrowser.getDriver(testProperties);
-			logger.info("Driver Initialised");
-
-			driver.get(testProperties.getBrowserProps().getBrowserUrl());
-		} catch (Exception exception) {
-			StringWriter exceptionLogs = new StringWriter();
-			exception.printStackTrace(new PrintWriter(exceptionLogs));
-			logger.error(exceptionLogs.toString());
-		}
+	public static void driverInitialization() {
+		driver = driverForBrowser.getDriver(testProperties);
+		logger.info("Driver Initialised");
+		driver.get(testProperties.getBrowserProps().getBrowserUrl());
 	}
 
 }

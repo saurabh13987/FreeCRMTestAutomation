@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [FreeCRM Application Test Automation Suite]">
-  <listeners>
-    <listener class-name="com.crm.qa.listener.ExtentReportListener"/>
-  </listeners>
+  <parameter name="headlessBrowser" value="true"/>
+  <parameter name="implicitWait" value="60"/>
+  <parameter name="password" value="Test@12345"/>
+  <parameter name="pageLoadWait" value="60"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserUrl" value="https://classic.freecrm.com/index.html"/>
+  <parameter name="browserDriverPath" value="\src\test\resources\webDrivers\"/>
+  <parameter name="maximiseBrowser" value="true"/>
+  <parameter name="userName" value="groupautomation"/>
   <test name="FreeCRM App Test Cases(failed)">
-    <parameter name="headlessBrowser" value="true"/>
-    <parameter name="implicitWait" value="60"/>
-    <parameter name="password" value="Test@12345"/>
-    <parameter name="pageLoadWait" value="60"/>
-    <parameter name="browser" value="chrome"/>
-    <parameter name="browserUrl" value="https://classic.freecrm.com/index.html"/>
-    <parameter name="browserDriverPath" value="\src\test\resources\"/>
-    <parameter name="maximiseBrowser" value="true"/>
-    <parameter name="userName" value="groupautomation"/>
     <classes>
       <class name="com.crm.qa.testcases.ContactsPageTests">
         <methods>
-          <include name="verifyContactsPageTitleTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="verifyContactsPageLabelTest"/>
+          <include name="initialization"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTests -->
     </classes>

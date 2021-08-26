@@ -1,13 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="6" total="13" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="FreeCRM Application Test Automation Suite" duration-ms="12716" started-at="2021-08-24T14:24:43Z" finished-at="2021-08-24T14:24:55Z">
+  <suite name="FreeCRM Application Test Automation Suite" duration-ms="71443" started-at="2021-08-26T12:57:57Z" finished-at="2021-08-26T12:59:08Z">
     <groups>
     </groups>
-    <test name="FreeCRM App Test Cases" duration-ms="12716" started-at="2021-08-24T14:24:43Z" finished-at="2021-08-24T14:24:55Z">
+    <test name="FreeCRM App Test Cases" duration-ms="71443" started-at="2021-08-26T12:57:57Z" finished-at="2021-08-26T12:59:08Z">
+      <class name="com.crm.qa.testcases.LoginPageTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="setup" is-config="true" duration-ms="5285" started-at="2021-08-26T18:28:10Z" finished-at="2021-08-26T18:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="verifyloginPageTitleTest" duration-ms="16" started-at="2021-08-26T18:28:16Z" finished-at="2021-08-26T18:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="tearDown" is-config="true" duration-ms="593" started-at="2021-08-26T18:28:16Z" finished-at="2021-08-26T18:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginPageTitleTest status=SUCCESS method=LoginPageTests.verifyloginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTests@1239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="setup" is-config="true" duration-ms="5343" started-at="2021-08-26T18:28:41Z" finished-at="2021-08-26T18:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifycrmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="verifycrmLogoImageTest" duration-ms="52" started-at="2021-08-26T18:28:46Z" finished-at="2021-08-26T18:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycrmLogoImageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="tearDown" is-config="true" duration-ms="593" started-at="2021-08-26T18:28:46Z" finished-at="2021-08-26T18:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycrmLogoImageTest status=SUCCESS method=LoginPageTests.verifycrmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTests@1239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="setup" is-config="true" duration-ms="5472" started-at="2021-08-26T18:28:57Z" finished-at="2021-08-26T18:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyloginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="verifyloginTest" duration-ms="4909" started-at="2021-08-26T18:29:03Z" finished-at="2021-08-26T18:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="tearDown" is-config="true" duration-ms="590" started-at="2021-08-26T18:29:08Z" finished-at="2021-08-26T18:29:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginTest status=SUCCESS method=LoginPageTests.verifyloginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTests@1239d7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTests -->
+      <class name="com.crm.qa.testcases.HomePageTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTests@572421]" name="setup" is-config="true" duration-ms="11262" started-at="2021-08-26T18:28:16Z" finished-at="2021-08-26T18:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTests@572421]" name="verifyHomePageTitleTest" duration-ms="5" started-at="2021-08-26T18:28:27Z" finished-at="2021-08-26T18:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.HomePageTests@572421]" name="tearDown" is-config="true" duration-ms="578" started-at="2021-08-26T18:28:27Z" finished-at="2021-08-26T18:28:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitleTest status=SUCCESS method=HomePageTests.verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTests@572421] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTests@572421]" name="setup" is-config="true" duration-ms="9869" started-at="2021-08-26T18:28:47Z" finished-at="2021-08-26T18:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageUserNameLabelTest()[pri:2, instance:com.crm.qa.testcases.HomePageTests@572421]" name="verifyHomePageUserNameLabelTest" duration-ms="113" started-at="2021-08-26T18:28:57Z" finished-at="2021-08-26T18:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageUserNameLabelTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.HomePageTests@572421]" name="tearDown" is-config="true" duration-ms="578" started-at="2021-08-26T18:28:57Z" finished-at="2021-08-26T18:28:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageUserNameLabelTest status=SUCCESS method=HomePageTests.verifyHomePageUserNameLabelTest()[pri:2, instance:com.crm.qa.testcases.HomePageTests@572421] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTests -->
       <class name="com.crm.qa.testcases.ContactsPageTests">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@14425a7]" name="setup" is-config="true" duration-ms="10703" started-at="2021-08-24T19:54:43Z" finished-at="2021-08-24T19:54:53Z">
+        <test-method status="PASS" signature="initialization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="initialization" is-config="true" duration-ms="16" started-at="2021-08-26T18:27:57Z" finished-at="2021-08-26T18:27:57Z">
           <params>
             <param index="0">
               <value>
@@ -57,12 +156,42 @@
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="setup" is-config="true" duration-ms="11680" started-at="2021-08-26T18:27:57Z" finished-at="2021-08-26T18:28:08Z">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.crm.qa.testcases.ContactsPageTests@14425a7]" name="verifyContactsPageTitleTest" duration-ms="1417" started-at="2021-08-24T19:54:53Z" finished-at="2021-08-24T19:54:55Z">
+        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="verifyContactsPageTitleTest" duration-ms="1240" started-at="2021-08-26T18:28:08Z" finished-at="2021-08-26T18:28:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactsPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@14425a7]" name="tearDown" is-config="true" duration-ms="582" started-at="2021-08-24T19:54:55Z" finished-at="2021-08-24T19:54:55Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="tearDown" is-config="true" duration-ms="577" started-at="2021-08-26T18:28:10Z" finished-at="2021-08-26T18:28:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactsPageTitleTest status=SUCCESS method=ContactsPageTests.verifyContactsPageTitleTest()[pri:1, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="setup" is-config="true" duration-ms="10857" started-at="2021-08-26T18:28:28Z" finished-at="2021-08-26T18:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactsPageLabelTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="verifyContactsPageLabelTest" duration-ms="1211" started-at="2021-08-26T18:28:39Z" finished-at="2021-08-26T18:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabelTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="tearDown" is-config="true" duration-ms="596" started-at="2021-08-26T18:28:40Z" finished-at="2021-08-26T18:28:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactsPageLabelTest status=SUCCESS method=ContactsPageTests.verifyContactsPageLabelTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

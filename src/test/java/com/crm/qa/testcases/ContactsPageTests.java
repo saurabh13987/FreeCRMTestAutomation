@@ -1,27 +1,27 @@
 package com.crm.qa.testcases;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import com.crm.qa.base.TestBase;
+import com.crm.qa.listener.TestExecutionListener;
 import com.crm.qa.pages.*;
 import com.crm.qa.util.ReadExcel;
 import com.crm.qa.util.SeleniumUtilities;
 
+@Listeners(TestExecutionListener.class)
 public class ContactsPageTests extends TestBase {
 	ContactsPage contactsPage;
 	HomePage homePage;
 	LoginPage loginPage;
 	SeleniumUtilities seleniumUtils;
 	ReadExcel readExcelData;
-	private Logger logger = Logger.getLogger(this.getClass());
 
 	public final String testFileName = "freecrm_data.xlsx";
 	public final String testSheetName = "contacts";
@@ -36,13 +36,8 @@ public class ContactsPageTests extends TestBase {
 	}
 
 	@BeforeMethod
-	@Parameters({ "browser", "browserDriverPath", "headlessBrowser", "maximiseBrowser", "browserUrl", "userName",
-			"password", "implicitWait", "pageLoadWait" })
-	public void setup(String browser, String browserDriverPath, String headlessBrowser, String maximiseBrowser,
-			String browserUrl, String userName, String password, String implicitWait, String pageLoadWait) {
-		browserParamsInit(browser, browserDriverPath, headlessBrowser, maximiseBrowser, browserUrl, userName, password,
-				implicitWait, pageLoadWait);
-		initialization();
+	public void setup() {
+		driverInitialization();
 		loginPage = new LoginPage();
 		seleniumUtils = new SeleniumUtilities();
 		homePage = loginPage.login(testProperties.getBrowserProps().getUsername(),
@@ -53,7 +48,6 @@ public class ContactsPageTests extends TestBase {
 	public void verifyContactsPageTitleTest() {
 		seleniumUtils.switchToFrame("mainpanel");
 		contactsPage = homePage.getContactsPage();
-		logger.info("Validating Contacts Page Title");
 		Assert.assertEquals(driver.getTitle(), "CRMPRO");
 	}
 
@@ -61,7 +55,6 @@ public class ContactsPageTests extends TestBase {
 	public void verifyContactsPageLabelTest() {
 		seleniumUtils.switchToFrame("mainpanel");
 		contactsPage = homePage.getContactsPage();
-		logger.info("Validating Contacts Page Label");
 		Assert.assertTrue(contactsPage.getContactsLabel().isDisplayed());
 	}
 
@@ -69,7 +62,6 @@ public class ContactsPageTests extends TestBase {
 	public void verifyContactsTest() {
 		seleniumUtils.switchToFrame("mainpanel");
 		contactsPage = homePage.getContactsPage();
-		logger.info("Validating Contacts");
 		Assert.assertTrue(contactsPage.getContactName("amruta dhale").isEnabled());
 		Assert.assertTrue(!contactsPage.getContactName("amruta dhale").isSelected());
 		contactsPage.getContactName("amruta dhale").click();
@@ -79,7 +71,6 @@ public class ContactsPageTests extends TestBase {
 	@Test(priority = 4, dataProvider = "getContactsTestData", enabled = false)
 	public void verifyCreateContactTest(String title, String firstName, String middleName, String lastName,
 			String company) throws InterruptedException {
-		logger.info("Validating Creation of new contact");
 		seleniumUtils.switchToFrame("mainpanel");
 		Actions action = new Actions(driver);
 		action.moveToElement(homePage.getContactsLink()).build().perform();
@@ -96,7 +87,7 @@ public class ContactsPageTests extends TestBase {
 	}
 
 	@AfterMethod
-	public void tearDown() {
+	public void tearDown(ITestResult result) {
 		driver.quit();
 	}
 

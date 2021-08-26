@@ -18,7 +18,7 @@ public class SeleniumUtilities extends TestBase {
 		driver.switchTo().frame(frameName);
 	}
 
-	public void takeScreenshotAtEndOfTest(String filename) throws IOException {
+	public void takeScreenshot(String filename) throws IOException {
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
 		FileUtils.copyFile(srcFile, new File(currentDir + filename));

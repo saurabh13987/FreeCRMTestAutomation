@@ -58,7 +58,7 @@ public class BrowserProperties {
 		logger.info("User selected as--->" + userName);
 		logger.info("Password entered as--->" + userPassword);
 		logger.info("Browser Implicit Time selected as--->" + implicitWait);
-		logger.info("Browser Page Load TIme selected as--->" + pageLoadWait);
+		logger.info("Browser Page Load Time selected as--->" + pageLoadWait);
 		logger.info(lineSeparator);
 	}
 
