@@ -7,16 +7,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.events.EventFiringWebDriver;
 
-import com.crm.qa.listener.WebEventListener;
 import com.crm.qa.testproperties.TestProperties;
 
 public class DriverForBrowser {
 
 	private WebDriver driver;
-	private EventFiringWebDriver e_driver;
-	private WebEventListener eventListener;
 
 	public WebDriver getDriver(TestProperties testProperties) {
 
@@ -52,11 +48,6 @@ public class DriverForBrowser {
 			driver = new ChromeDriver();
 			break;
 		}
-
-		e_driver = new EventFiringWebDriver(driver);
-		eventListener = new WebEventListener();
-		e_driver.register(eventListener);
-		driver = e_driver;
 
 		if (testProperties.getBrowserProps().isMaximise()) {
 			driver.manage().window().maximize();

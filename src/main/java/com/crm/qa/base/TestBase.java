@@ -6,11 +6,14 @@ import java.util.HashMap;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 import com.crm.qa.testproperties.TestProperties;
 import com.crm.qa.util.WindowsActions;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.crm.qa.util.DriverForBrowser;
 
 public class TestBase {
@@ -24,17 +27,20 @@ public class TestBase {
 	public static DriverForBrowser driverForBrowser;
 	public static HashMap<String, String> browserParams = new HashMap<String, String>();
 
+	public static ExtentReports extent;
+	public static ExtentTest extentTest;
+
 	private static Logger logger = Logger.getLogger(TestBase.class);
 
 	@Parameters({ "browser", "browserDriverPath", "headlessBrowser", "maximiseBrowser", "browserUrl", "userName",
-			"password", "implicitWait", "pageLoadWait" })
+			"password", "implicitWait", "pageLoadWait", "extentReportPath", "environment" })
 	@BeforeSuite
 	public static void initialization(String browser, String browserDriverPath, String headlessBrowser,
 			String maximiseBrowser, String browserUrl, String userName, String password, String implicitWait,
-			String pageLoadWait) {
+			String pageLoadWait, String extentReportPath, String environment) {
 
 		try {
-
+			extentreportInit(extentReportPath, environment, browser);
 			browserParamsInit(browser, browserDriverPath, headlessBrowser, maximiseBrowser, browserUrl, userName,
 					password, implicitWait, pageLoadWait);
 			testProperties = new TestProperties();
@@ -42,6 +48,22 @@ public class TestBase {
 			driverForBrowser = new DriverForBrowser();
 
 			testProperties.setBrowserprops(propertiesFileName, browserParams);
+
+		} catch (Exception exception) {
+			StringWriter exceptionLogs = new StringWriter();
+			exception.printStackTrace(new PrintWriter(exceptionLogs));
+			logger.error(exceptionLogs.toString());
+		}
+	}
+
+	public static void extentreportInit(String extentReportPath, String environment, String browser) {
+		extent = new ExtentReports(System.getProperty("user.dir") + extentReportPath, true);
+		try {
+			java.net.InetAddress localMachine = java.net.InetAddress.getLocalHost();
+			extent.addSystemInfo("Host Name", localMachine.getHostName());
+			extent.addSystemInfo("User Name", System.getProperty("user.name"));
+			extent.addSystemInfo("Environment", environment);
+			extent.addSystemInfo("Browser", browser);
 
 		} catch (Exception exception) {
 			StringWriter exceptionLogs = new StringWriter();
@@ -68,6 +90,12 @@ public class TestBase {
 		driver = driverForBrowser.getDriver(testProperties);
 		logger.info("Driver Initialised");
 		driver.get(testProperties.getBrowserProps().getBrowserUrl());
+	}
+
+	@AfterSuite
+	public static void endReport() {
+		extent.flush();
+		extent.close();
 	}
 
 }

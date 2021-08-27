@@ -150,6 +150,28 @@
           <div class="suite-FreeCRM_Application_Test_Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.ContactsPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactsPageLabelTest">
+                  </a> <!-- verifyContactsPageLabelTest -->
+                  <span class="method-name">verifyContactsPageLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactsPageTitleTest">
+                  </a> <!-- verifyContactsPageTitleTest -->
+                  <span class="method-name">verifyContactsPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FreeCRM_Application_Test_Automation_Suite-class-passed -->
+          <div class="suite-FreeCRM_Application_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.crm.qa.testcases.HomePageTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -198,28 +220,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-FreeCRM_Application_Test_Automation_Suite-class-passed -->
-          <div class="suite-FreeCRM_Application_Test_Automation_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.crm.qa.testcases.ContactsPageTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyContactsPageLabelTest">
-                  </a> <!-- verifyContactsPageLabelTest -->
-                  <span class="method-name">verifyContactsPageLabelTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyContactsPageTitleTest">
-                  </a> <!-- verifyContactsPageTitleTest -->
-                  <span class="method-name">verifyContactsPageTitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FreeCRM_Application_Test_Automation_Suite-class-passed -->
         </div> <!-- panel FreeCRM_Application_Test_Automation_Suite -->
         <div panel-name="test-xml-FreeCRM_Application_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -233,15 +233,14 @@
   &lt;parameter name=&quot;headlessBrowser&quot; value=&quot;true&quot;/&gt;
   &lt;parameter name=&quot;implicitWait&quot; value=&quot;60&quot;/&gt;
   &lt;parameter name=&quot;password&quot; value=&quot;Test@12345&quot;/&gt;
+  &lt;parameter name=&quot;environment&quot; value=&quot;QA&quot;/&gt;
   &lt;parameter name=&quot;pageLoadWait&quot; value=&quot;60&quot;/&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;parameter name=&quot;browserUrl&quot; value=&quot;https://classic.freecrm.com/index.html&quot;/&gt;
   &lt;parameter name=&quot;browserDriverPath&quot; value=&quot;\src\test\resources\webDrivers\&quot;/&gt;
+  &lt;parameter name=&quot;extentReportPath&quot; value=&quot;\test-output\extentreports\ExtentReport.html&quot;/&gt;
   &lt;parameter name=&quot;maximiseBrowser&quot; value=&quot;true&quot;/&gt;
   &lt;parameter name=&quot;userName&quot; value=&quot;groupautomation&quot;/&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.crm.qa.listener.ExtentReportListener&quot;/&gt;
-  &lt;/listeners&gt;
   &lt;test name=&quot;FreeCRM App Test Cases&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.crm.qa.testcases.ContactsPageTests&quot;/&gt;
@@ -290,36 +289,36 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyloginTest')
 data.setCell(0, 2, 'com.crm.qa.testcases.LoginPageTests')
-data.setCell(0, 3, 4909);
+data.setCell(0, 3, 5161);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyContactsPageTitleTest')
+data.setCell(1, 1, 'verifyContactsPageLabelTest')
 data.setCell(1, 2, 'com.crm.qa.testcases.ContactsPageTests')
-data.setCell(1, 3, 1240);
+data.setCell(1, 3, 1621);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyContactsPageLabelTest')
+data.setCell(2, 1, 'verifyContactsPageTitleTest')
 data.setCell(2, 2, 'com.crm.qa.testcases.ContactsPageTests')
-data.setCell(2, 3, 1211);
+data.setCell(2, 3, 1586);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyHomePageUserNameLabelTest')
 data.setCell(3, 2, 'com.crm.qa.testcases.HomePageTests')
-data.setCell(3, 3, 113);
+data.setCell(3, 3, 255);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifycrmLogoImageTest')
 data.setCell(4, 2, 'com.crm.qa.testcases.LoginPageTests')
-data.setCell(4, 3, 52);
+data.setCell(4, 3, 130);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyloginPageTitleTest')
-data.setCell(5, 2, 'com.crm.qa.testcases.LoginPageTests')
-data.setCell(5, 3, 16);
+data.setCell(5, 1, 'verifyHomePageTitleTest')
+data.setCell(5, 2, 'com.crm.qa.testcases.HomePageTests')
+data.setCell(5, 3, 28);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyHomePageTitleTest')
-data.setCell(6, 2, 'com.crm.qa.testcases.HomePageTests')
-data.setCell(6, 3, 5);
+data.setCell(6, 1, 'verifyloginPageTitleTest')
+data.setCell(6, 2, 'com.crm.qa.testcases.LoginPageTests')
+data.setCell(6, 3, 14);
 window.suiteTableData['FreeCRM_Application_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-FreeCRM_Application_Test_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-FreeCRM_Application_Test_Automation_Suite">
               </div> <!-- times-div-FreeCRM_Application_Test_Automation_Suite -->
             </div> <!-- times-div -->
@@ -334,12 +333,23 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-FreeCRM_Application_Test_Automation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">6 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">com.crm.qa.testcases.ContactsPageTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyCreateContactTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyContactsTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">com.crm.qa.testcases.HomePageTests</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
                 <span class="ignored-method-name">verifyContactsLinkHover</span>
                 <br/>
                 <span class="ignored-method-name">verifyContactsLinkTest</span>
@@ -351,16 +361,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.crm.qa.testcases.LoginPageTests</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
                 <span class="ignored-method-name">initialization</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.crm.qa.testcases.ContactsPageTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyCreateContactTest</span>
-                <br/>
-                <span class="ignored-method-name">verifyContactsTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -379,106 +382,113 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">28 ms</span>
+                <span class="method-start">177 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContactsPageTitleTest</span>
-                <span class="method-start">11708 ms</span>
+                <span class="method-start">12303 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyContactsPageTitleTest status=SUCCESS method=ContactsPageTests.verifyContactsP...)</span>
-                <span class="method-start">12949 ms</span>
+                <span class="method-start">13896 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.LoginPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">13527 ms</span>
+                <span class="method-start">14541 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyloginPageTitleTest</span>
-                <span class="method-start">18812 ms</span>
+                <span class="method-start">20632 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyloginPageTitleTest status=SUCCESS method=LoginPageTests.verifyloginPageTitleT...)</span>
-                <span class="method-start">18829 ms</span>
+                <span class="method-start">20648 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.HomePageTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">19423 ms</span>
+                <span class="method-start">21243 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitleTest</span>
-                <span class="method-start">30685 ms</span>
+                <span class="method-start">32725 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyHomePageTitleTest status=SUCCESS method=HomePageTests.verifyHomePageTitleTest...)</span>
-                <span class="method-start">30691 ms</span>
+                <span class="method-start">32758 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.ContactsPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">31270 ms</span>
+                <span class="method-start">33477 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContactsPageLabelTest</span>
-                <span class="method-start">42127 ms</span>
+                <span class="method-start">44124 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyContactsPageLabelTest status=SUCCESS method=ContactsPageTests.verifyContactsP...)</span>
-                <span class="method-start">43340 ms</span>
+                <span class="method-start">45750 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.LoginPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">43936 ms</span>
+                <span class="method-start">46512 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifycrmLogoImageTest</span>
-                <span class="method-start">49279 ms</span>
+                <span class="method-start">53298 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifycrmLogoImageTest status=SUCCESS method=LoginPageTests.verifycrmLogoImageTest(...)</span>
-                <span class="method-start">49332 ms</span>
+                <span class="method-start">53431 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.HomePageTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">49925 ms</span>
+                <span class="method-start">54028 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageUserNameLabelTest</span>
-                <span class="method-start">59794 ms</span>
+                <span class="method-start">66488 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyHomePageUserNameLabelTest status=SUCCESS method=HomePageTests.verifyHomePageU...)</span>
-                <span class="method-start">59908 ms</span>
+                <span class="method-start">66747 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcases.LoginPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">60487 ms</span>
+                <span class="method-start">67449 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyloginTest</span>
-                <span class="method-start">65959 ms</span>
+                <span class="method-start">73400 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyloginTest status=SUCCESS method=LoginPageTests.verifyloginTest()[pri:3, insta...)</span>
-                <span class="method-start">70869 ms</span>
+                <span class="method-start">78563 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.ContactsPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">79178 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

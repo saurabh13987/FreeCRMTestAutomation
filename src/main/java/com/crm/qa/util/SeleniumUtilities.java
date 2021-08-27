@@ -18,11 +18,12 @@ public class SeleniumUtilities extends TestBase {
 		driver.switchTo().frame(frameName);
 	}
 
-	public void takeScreenshot(String filename) throws IOException {
+	public String takeScreenshot(String filename) throws IOException {
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
 		FileUtils.copyFile(srcFile, new File(currentDir + filename));
 		logger.info("Screenshot captured successfully -->" + currentDir + filename);
+		return currentDir + filename;
 	}
 
 }

@@ -14,6 +14,7 @@ import com.crm.qa.listener.TestExecutionListener;
 import com.crm.qa.pages.*;
 import com.crm.qa.util.ReadExcel;
 import com.crm.qa.util.SeleniumUtilities;
+import com.relevantcodes.extentreports.LogStatus;
 
 @Listeners(TestExecutionListener.class)
 public class ContactsPageTests extends TestBase {
@@ -46,6 +47,7 @@ public class ContactsPageTests extends TestBase {
 
 	@Test(priority = 1)
 	public void verifyContactsPageTitleTest() {
+		extentTest = extent.startTest("Contacts Page Title Test");
 		seleniumUtils.switchToFrame("mainpanel");
 		contactsPage = homePage.getContactsPage();
 		Assert.assertEquals(driver.getTitle(), "CRMPRO");
@@ -53,6 +55,7 @@ public class ContactsPageTests extends TestBase {
 
 	@Test(priority = 2)
 	public void verifyContactsPageLabelTest() {
+		extentTest = extent.startTest("Contacts Page Label Test");
 		seleniumUtils.switchToFrame("mainpanel");
 		contactsPage = homePage.getContactsPage();
 		Assert.assertTrue(contactsPage.getContactsLabel().isDisplayed());
@@ -60,6 +63,7 @@ public class ContactsPageTests extends TestBase {
 
 	@Test(priority = 3, enabled = false)
 	public void verifyContactsTest() {
+		extentTest = extent.startTest("Contacts Page Contact Search Test");
 		seleniumUtils.switchToFrame("mainpanel");
 		contactsPage = homePage.getContactsPage();
 		Assert.assertTrue(contactsPage.getContactName("amruta dhale").isEnabled());
@@ -71,6 +75,7 @@ public class ContactsPageTests extends TestBase {
 	@Test(priority = 4, dataProvider = "getContactsTestData", enabled = false)
 	public void verifyCreateContactTest(String title, String firstName, String middleName, String lastName,
 			String company) throws InterruptedException {
+		extentTest = extent.startTest("Contacts Page Contact Creation Test");
 		seleniumUtils.switchToFrame("mainpanel");
 		Actions action = new Actions(driver);
 		action.moveToElement(homePage.getContactsLink()).build().perform();
@@ -88,6 +93,16 @@ public class ContactsPageTests extends TestBase {
 
 	@AfterMethod
 	public void tearDown(ITestResult result) {
+		if (result.getStatus() == ITestResult.FAILURE) {
+			extentTest.log(LogStatus.FAIL, "Test Case Failed is : " + result.getMethod().getMethodName());
+			extentTest.log(LogStatus.FAIL, "Test Case Error is : " + result.getThrowable());
+
+		} else if (result.getStatus() == ITestResult.SKIP) {
+			extentTest.log(LogStatus.SKIP, "Test Case Skipped is : " + result.getMethod().getMethodName());
+		} else if (result.getStatus() == ITestResult.SUCCESS) {
+			extentTest.log(LogStatus.PASS, "Test Case Passed is : " + result.getMethod().getMethodName());
+		}
+		extent.endTest(extentTest);
 		driver.quit();
 	}
 

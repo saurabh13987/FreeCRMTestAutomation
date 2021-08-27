@@ -11,6 +11,7 @@ import org.testng.ITestResult;
 
 import com.crm.qa.base.TestBase;
 import com.crm.qa.util.SeleniumUtilities;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class TestExecutionListener extends TestBase implements ITestListener {
 
@@ -36,18 +37,22 @@ public class TestExecutionListener extends TestBase implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		logger.info("Test Case Failed : " + result.getMethod().getMethodName());
 		try {
-			seleniumUtils.takeScreenshot(TestBase.testEvidenceFolder + "executionFailure/"
-					+ result.getMethod().getMethodName() + "_" + System.currentTimeMillis() + ".png");
+			String screenshot = seleniumUtils.takeScreenshot(TestBase.testEvidenceFolder + "executionFailure/"
+					+ result.getMethod().getMethodName() + "_" + windowsActions.getTimeStamp() + ".png");
+			extentTest.log(LogStatus.FAIL, "Captured Screenshot is : ");
+			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshot));
 		} catch (IOException exception) {
 			StringWriter exceptionLogs = new StringWriter();
 			exception.printStackTrace(new PrintWriter(exceptionLogs));
 			logger.error(exceptionLogs.toString());
 		}
+		logger.info("Test Case Execution Completed : " + result.getMethod().getMethodName());
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		logger.info("Test Case Execution Skipped : " + result.getMethod().getMethodName());
+		logger.info("Test Case Execution Completed : " + result.getMethod().getMethodName());
 	}
 
 	@Override
@@ -57,7 +62,8 @@ public class TestExecutionListener extends TestBase implements ITestListener {
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		logger.info("Test Case Execution completed : " + result.getMethod().getMethodName());
+		logger.info("Test Case Execution Passed : " + result.getMethod().getMethodName());
+		logger.info("Test Case Execution Completed : " + result.getMethod().getMethodName());
 	}
 
 }

@@ -4,18 +4,22 @@
 <suite name="FreeCRM Application Test Automation Suite"
 	verbose="1">
 
-	<listeners>
-		<listener
-			class-name="com.crm.qa.listener.ExtentReportListener" />
-	</listeners>
+	<!--Browser Parameters -->
 	<parameter name="headlessBrowser" value="true" />
 	<parameter name="maximiseBrowser" value="true" />
 	<parameter name="browserDriverPath"
 		value="\src\test\resources\webDrivers\" />
-	<parameter name="browserUrl"
-		value="https://classic.freecrm.com/index.html" />
 	<parameter name="implicitWait" value="60" />
 	<parameter name="pageLoadWait" value="60" />
+
+	<!-- Application Parameters -->
+	<parameter name="browserUrl"
+		value="https://classic.freecrm.com/index.html" />
+
+	<!--Extent Report Parameters -->
+	<parameter name="extentReportPath"
+		value="\test-output\extentreports\ExtentReport.html" />
+	<parameter name="environment" value="QA" />
 
 	<test name="FreeCRM App Test Cases">
 		<classes>

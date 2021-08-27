@@ -1,139 +1,50 @@
-2021-08-26 18:27:57,265  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
-2021-08-26 18:27:57,267  INFO [main] WindowsActions:21 - Properties File read successfully
-2021-08-26 18:27:57,268  INFO [main] BrowserProperties:53 - ***********************************************************************
-2021-08-26 18:27:57,268  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
-2021-08-26 18:27:57,268  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
-2021-08-26 18:27:57,268  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
-2021-08-26 18:27:57,268  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
-2021-08-26 18:27:57,268  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
-2021-08-26 18:27:57,268  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
-2021-08-26 18:27:57,268  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
-2021-08-26 18:27:57,268  INFO [main] BrowserProperties:61 - Browser Page Load Time selected as--->60
-2021-08-26 18:27:57,268  INFO [main] BrowserProperties:62 - ***********************************************************************
-2021-08-26 18:27:57,281  INFO [main] ContactsPageTests:42 - Test Execution started
-2021-08-26 18:27:58,838  INFO [main] TestBase:69 - Driver Initialised
-2021-08-26 18:27:58,838  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:03,351  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:03,371  INFO [main] WebEventListener:75 - Trying to find Element By : By.name: username
-2021-08-26 18:28:03,386  INFO [main] WebEventListener:79 - Found Element By : By.name: username
-2021-08-26 18:28:03,455  INFO [main] WebEventListener:75 - Trying to find Element By : By.name: password
-2021-08-26 18:28:03,485  INFO [main] WebEventListener:79 - Found Element By : By.name: password
-2021-08-26 18:28:03,572  INFO [main] WebEventListener:75 - Trying to find Element By : By.xpath: //input[@type='submit']
-2021-08-26 18:28:03,588  INFO [main] WebEventListener:79 - Found Element By : By.xpath: //input[@type='submit']
-2021-08-26 18:28:03,588  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (1627ffc1b8e659d610d0712129c46aac)] -> xpath: //input[@type='submit']]
-2021-08-26 18:28:08,955  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1627ffc1b8e659d610d0712129c46aac)] -> xpath: //input[@type='submit']]
-2021-08-26 18:28:08,960  INFO [main] TestExecutionListener:55 - Test Case Execution Started : verifyContactsPageTitleTest
-2021-08-26 18:28:09,036  INFO [main] WebEventListener:75 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
-2021-08-26 18:28:09,055  INFO [main] WebEventListener:79 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
-2021-08-26 18:28:09,055  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (1627ffc1b8e659d610d0712129c46aac)] -> xpath: //a[contains(text(),'Contacts')]]
-2021-08-26 18:28:10,190  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (1627ffc1b8e659d610d0712129c46aac)] -> xpath: //a[contains(text(),'Contacts')]]
-2021-08-26 18:28:10,192  INFO [main] ContactsPageTests:54 - Validating Contacts Page Title--->started
-2021-08-26 18:28:10,200  INFO [main] ContactsPageTests:56 - Validating Contacts Page Title--->end
-2021-08-26 18:28:10,200  INFO [main] TestExecutionListener:60 - Test Case Execution completed : verifyContactsPageTitleTest
-2021-08-26 18:28:10,778  INFO [main] ContactsPageTests:103 - Test Execution ended
-2021-08-26 18:28:10,779  INFO [main] LoginPageTests:22 - Test Execution started
-2021-08-26 18:28:11,987  INFO [main] TestBase:69 - Driver Initialised
-2021-08-26 18:28:11,987  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:16,063  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:16,064  INFO [main] TestExecutionListener:55 - Test Case Execution Started : verifyloginPageTitleTest
-2021-08-26 18:28:16,065  INFO [main] LoginPageTests:29 - Validating Login Page Title--->started
-2021-08-26 18:28:16,080  INFO [main] LoginPageTests:32 - Validating Login Page Title--->end
-2021-08-26 18:28:16,080  INFO [main] TestExecutionListener:60 - Test Case Execution completed : verifyloginPageTitleTest
-2021-08-26 18:28:16,674  INFO [main] LoginPageTests:54 - Test Execution ended
-2021-08-26 18:28:16,675  INFO [main] HomePageTests:30 - Test Execution started
-2021-08-26 18:28:17,885  INFO [main] TestBase:69 - Driver Initialised
-2021-08-26 18:28:17,885  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:22,502  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:22,503  INFO [main] WebEventListener:75 - Trying to find Element By : By.name: username
-2021-08-26 18:28:22,529  INFO [main] WebEventListener:79 - Found Element By : By.name: username
-2021-08-26 18:28:22,584  INFO [main] WebEventListener:75 - Trying to find Element By : By.name: password
-2021-08-26 18:28:22,608  INFO [main] WebEventListener:79 - Found Element By : By.name: password
-2021-08-26 18:28:22,704  INFO [main] WebEventListener:75 - Trying to find Element By : By.xpath: //input[@type='submit']
-2021-08-26 18:28:22,734  INFO [main] WebEventListener:79 - Found Element By : By.xpath: //input[@type='submit']
-2021-08-26 18:28:22,734  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (30a7a4e71e6c5482c8fcc61169b29fe8)] -> xpath: //input[@type='submit']]
-2021-08-26 18:28:27,936  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (30a7a4e71e6c5482c8fcc61169b29fe8)] -> xpath: //input[@type='submit']]
-2021-08-26 18:28:27,937  INFO [main] TestExecutionListener:55 - Test Case Execution Started : verifyHomePageTitleTest
-2021-08-26 18:28:27,937  INFO [main] HomePageTests:40 - Validating Home Page Title--->started
-2021-08-26 18:28:27,942  INFO [main] HomePageTests:42 - Validating Home Page Title--->end
-2021-08-26 18:28:27,942  INFO [main] TestExecutionListener:60 - Test Case Execution completed : verifyHomePageTitleTest
-2021-08-26 18:28:28,521  INFO [main] HomePageTests:83 - Test Execution ended
-2021-08-26 18:28:28,522  INFO [main] ContactsPageTests:42 - Test Execution started
-2021-08-26 18:28:29,800  INFO [main] TestBase:69 - Driver Initialised
-2021-08-26 18:28:29,800  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:34,290  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:34,291  INFO [main] WebEventListener:75 - Trying to find Element By : By.name: username
-2021-08-26 18:28:34,315  INFO [main] WebEventListener:79 - Found Element By : By.name: username
-2021-08-26 18:28:34,422  INFO [main] WebEventListener:75 - Trying to find Element By : By.name: password
-2021-08-26 18:28:34,435  INFO [main] WebEventListener:79 - Found Element By : By.name: password
-2021-08-26 18:28:34,487  INFO [main] WebEventListener:75 - Trying to find Element By : By.xpath: //input[@type='submit']
-2021-08-26 18:28:34,513  INFO [main] WebEventListener:79 - Found Element By : By.xpath: //input[@type='submit']
-2021-08-26 18:28:34,513  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (6beb360b5f3db09db99ca94aa0218479)] -> xpath: //input[@type='submit']]
-2021-08-26 18:28:39,378  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (6beb360b5f3db09db99ca94aa0218479)] -> xpath: //input[@type='submit']]
-2021-08-26 18:28:39,379  INFO [main] TestExecutionListener:55 - Test Case Execution Started : verifyContactsPageLabelTest
-2021-08-26 18:28:39,420  INFO [main] WebEventListener:75 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
-2021-08-26 18:28:39,450  INFO [main] WebEventListener:79 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
-2021-08-26 18:28:39,450  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (6beb360b5f3db09db99ca94aa0218479)] -> xpath: //a[contains(text(),'Contacts')]]
-2021-08-26 18:28:40,542  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (6beb360b5f3db09db99ca94aa0218479)] -> xpath: //a[contains(text(),'Contacts')]]
-2021-08-26 18:28:40,542  INFO [main] ContactsPageTests:63 - Validating Contacts Page Label--->started
-2021-08-26 18:28:40,543  INFO [main] WebEventListener:75 - Trying to find Element By : By.xpath: //td[contains(text(),'Contacts')]
-2021-08-26 18:28:40,556  INFO [main] WebEventListener:79 - Found Element By : By.xpath: //td[contains(text(),'Contacts')]
-2021-08-26 18:28:40,589  INFO [main] ContactsPageTests:65 - Validating Contacts Page Label--->end
-2021-08-26 18:28:40,590  INFO [main] TestExecutionListener:60 - Test Case Execution completed : verifyContactsPageLabelTest
-2021-08-26 18:28:41,188  INFO [main] ContactsPageTests:103 - Test Execution ended
-2021-08-26 18:28:41,188  INFO [main] LoginPageTests:22 - Test Execution started
-2021-08-26 18:28:42,390  INFO [main] TestBase:69 - Driver Initialised
-2021-08-26 18:28:42,390  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:46,530  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:46,531  INFO [main] TestExecutionListener:55 - Test Case Execution Started : verifycrmLogoImageTest
-2021-08-26 18:28:46,532  INFO [main] LoginPageTests:37 - Validating Login Page CRM Logo--->started
-2021-08-26 18:28:46,532  INFO [main] WebEventListener:75 - Trying to find Element By : By.xpath: //img[@class='img-responsive' and contains(@src,'logo')]
-2021-08-26 18:28:46,554  INFO [main] WebEventListener:79 - Found Element By : By.xpath: //img[@class='img-responsive' and contains(@src,'logo')]
-2021-08-26 18:28:46,583  INFO [main] LoginPageTests:39 - Validating Login Page CRM Logo--->end
-2021-08-26 18:28:46,583  INFO [main] TestExecutionListener:60 - Test Case Execution completed : verifycrmLogoImageTest
-2021-08-26 18:28:47,176  INFO [main] LoginPageTests:54 - Test Execution ended
-2021-08-26 18:28:47,177  INFO [main] HomePageTests:30 - Test Execution started
-2021-08-26 18:28:48,361  INFO [main] TestBase:69 - Driver Initialised
-2021-08-26 18:28:48,361  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:52,546  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
-2021-08-26 18:28:52,547  INFO [main] WebEventListener:75 - Trying to find Element By : By.name: username
-2021-08-26 18:28:52,570  INFO [main] WebEventListener:79 - Found Element By : By.name: username
-2021-08-26 18:28:52,633  INFO [main] WebEventListener:75 - Trying to find Element By : By.name: password
-2021-08-26 18:28:52,677  INFO [main] WebEventListener:79 - Found Element By : By.name: password
-2021-08-26 18:28:52,728  INFO [main] WebEventListener:75 - Trying to find Element By : By.xpath: //input[@type='submit']
-2021-08-26 18:28:52,753  INFO [main] WebEventListener:79 - Found Element By : By.xpath: //input[@type='submit']
-2021-08-26 18:28:52,755  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (92bd1675d96638134160590d6745746f)] -> xpath: //input[@type='submit']]
-2021-08-26 18:28:57,046  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (92bd1675d96638134160590d6745746f)] -> xpath: //input[@type='submit']]
-2021-08-26 18:28:57,046  INFO [main] TestExecutionListener:55 - Test Case Execution Started : verifyHomePageUserNameLabelTest
-2021-08-26 18:28:57,047  INFO [main] HomePageTests:47 - Validating Home Page UserName Label--->started
-2021-08-26 18:28:57,096  INFO [main] WebEventListener:75 - Trying to find Element By : By.xpath: //td[contains(text(),'User: group automation')]
-2021-08-26 18:28:57,120  INFO [main] WebEventListener:79 - Found Element By : By.xpath: //td[contains(text(),'User: group automation')]
-2021-08-26 18:28:57,158  INFO [main] HomePageTests:50 - Validating Home Page UserName Label--->end
-2021-08-26 18:28:57,159  INFO [main] TestExecutionListener:60 - Test Case Execution completed : verifyHomePageUserNameLabelTest
-2021-08-26 18:28:57,738  INFO [main] HomePageTests:83 - Test Execution ended
-2021-08-26 18:28:57,739  INFO [main] LoginPageTests:22 - Test Execution started
-2021-08-26 18:28:58,933  INFO [main] TestBase:69 - Driver Initialised
-2021-08-26 18:28:58,933  INFO [main] WebEventListener:23 - Before navigating to: 'https://classic.freecrm.com/index.html'
-2021-08-26 18:29:03,210  INFO [main] WebEventListener:27 - Navigated to:'https://classic.freecrm.com/index.html'
-2021-08-26 18:29:03,211  INFO [main] TestExecutionListener:55 - Test Case Execution Started : verifyloginTest
-2021-08-26 18:29:03,211  INFO [main] LoginPageTests:44 - Validating User is able to login successfully--->started
-2021-08-26 18:29:03,212  INFO [main] WebEventListener:75 - Trying to find Element By : By.name: username
-2021-08-26 18:29:03,233  INFO [main] WebEventListener:79 - Found Element By : By.name: username
-2021-08-26 18:29:03,288  INFO [main] WebEventListener:75 - Trying to find Element By : By.name: password
-2021-08-26 18:29:03,314  INFO [main] WebEventListener:79 - Found Element By : By.name: password
-2021-08-26 18:29:03,370  INFO [main] WebEventListener:75 - Trying to find Element By : By.xpath: //input[@type='submit']
-2021-08-26 18:29:03,394  INFO [main] WebEventListener:79 - Found Element By : By.xpath: //input[@type='submit']
-2021-08-26 18:29:03,395  INFO [main] WebEventListener:39 - Trying to click on: [[ChromeDriver: chrome on WINDOWS (9abdae983e667814fe142040f28cd749)] -> xpath: //input[@type='submit']]
-2021-08-26 18:29:08,115  INFO [main] WebEventListener:43 - Clicked on: [[ChromeDriver: chrome on WINDOWS (9abdae983e667814fe142040f28cd749)] -> xpath: //input[@type='submit']]
-2021-08-26 18:29:08,120  INFO [main] LoginPageTests:48 - Validating User is able to login successfully--->end
-2021-08-26 18:29:08,120  INFO [main] TestExecutionListener:60 - Test Case Execution completed : verifyloginTest
-2021-08-26 18:29:08,711  INFO [main] LoginPageTests:54 - Test Execution ended
-2021-08-26 18:29:08,877 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-2021-08-26 18:29:08,879 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-2021-08-26 18:29:08,880 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2021-08-26 18:29:08,882 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2021-08-26 18:29:08,882 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Saurabh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2021-08-26 18:29:09,095 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-2021-08-26 18:29:09,095 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-2021-08-26 18:29:09,096 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2021-08-26 18:29:09,096 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2021-08-26 18:29:09,096 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Saurabh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-08-27 17:20:10,505  INFO [main] BrowserProperties:38 - Reading Browser Properties.....
+2021-08-27 17:20:10,509  INFO [main] WindowsActions:21 - Properties File read successfully
+2021-08-27 17:20:10,509  INFO [main] BrowserProperties:53 - ***********************************************************************
+2021-08-27 17:20:10,509  INFO [main] BrowserProperties:54 - Broswer set as--->chrome
+2021-08-27 17:20:10,509  INFO [main] BrowserProperties:55 - Browser URL set as--->https://classic.freecrm.com/index.html
+2021-08-27 17:20:10,510  INFO [main] BrowserProperties:56 - Testing for Maximise Window Size--->true
+2021-08-27 17:20:10,510  INFO [main] BrowserProperties:57 - Testing for Headless Browser--->true
+2021-08-27 17:20:10,510  INFO [main] BrowserProperties:58 - User selected as--->groupautomation
+2021-08-27 17:20:10,510  INFO [main] BrowserProperties:59 - Password entered as--->Test@12345
+2021-08-27 17:20:10,510  INFO [main] BrowserProperties:60 - Browser Implicit Time selected as--->60
+2021-08-27 17:20:10,511  INFO [main] BrowserProperties:61 - Browser Page Load Time selected as--->60
+2021-08-27 17:20:10,511  INFO [main] BrowserProperties:62 - ***********************************************************************
+2021-08-27 17:20:12,493  INFO [main] TestBase:91 - Driver Initialised
+2021-08-27 17:20:22,657  INFO [main] TestExecutionListener:60 - Test Case Execution Started : verifyContactsPageTitleTest
+2021-08-27 17:20:24,245  INFO [main] TestExecutionListener:65 - Test Case Execution Passed : verifyContactsPageTitleTest
+2021-08-27 17:20:24,245  INFO [main] TestExecutionListener:66 - Test Case Execution Completed : verifyContactsPageTitleTest
+2021-08-27 17:20:26,447  INFO [main] TestBase:91 - Driver Initialised
+2021-08-27 17:20:30,986  INFO [main] TestExecutionListener:60 - Test Case Execution Started : verifyloginPageTitleTest
+2021-08-27 17:20:31,000  INFO [main] TestExecutionListener:65 - Test Case Execution Passed : verifyloginPageTitleTest
+2021-08-27 17:20:31,000  INFO [main] TestExecutionListener:66 - Test Case Execution Completed : verifyloginPageTitleTest
+2021-08-27 17:20:32,990  INFO [main] TestBase:91 - Driver Initialised
+2021-08-27 17:20:43,079  INFO [main] TestExecutionListener:60 - Test Case Execution Started : verifyHomePageTitleTest
+2021-08-27 17:20:43,107  INFO [main] TestExecutionListener:65 - Test Case Execution Passed : verifyHomePageTitleTest
+2021-08-27 17:20:43,108  INFO [main] TestExecutionListener:66 - Test Case Execution Completed : verifyHomePageTitleTest
+2021-08-27 17:20:45,257  INFO [main] TestBase:91 - Driver Initialised
+2021-08-27 17:20:54,478  INFO [main] TestExecutionListener:60 - Test Case Execution Started : verifyContactsPageLabelTest
+2021-08-27 17:20:56,099  INFO [main] TestExecutionListener:65 - Test Case Execution Passed : verifyContactsPageLabelTest
+2021-08-27 17:20:56,100  INFO [main] TestExecutionListener:66 - Test Case Execution Completed : verifyContactsPageLabelTest
+2021-08-27 17:20:58,273  INFO [main] TestBase:91 - Driver Initialised
+2021-08-27 17:21:03,652  INFO [main] TestExecutionListener:60 - Test Case Execution Started : verifycrmLogoImageTest
+2021-08-27 17:21:03,783  INFO [main] TestExecutionListener:65 - Test Case Execution Passed : verifycrmLogoImageTest
+2021-08-27 17:21:03,783  INFO [main] TestExecutionListener:66 - Test Case Execution Completed : verifycrmLogoImageTest
+2021-08-27 17:21:05,863  INFO [main] TestBase:91 - Driver Initialised
+2021-08-27 17:21:16,842  INFO [main] TestExecutionListener:60 - Test Case Execution Started : verifyHomePageUserNameLabelTest
+2021-08-27 17:21:17,097  INFO [main] TestExecutionListener:65 - Test Case Execution Passed : verifyHomePageUserNameLabelTest
+2021-08-27 17:21:17,098  INFO [main] TestExecutionListener:66 - Test Case Execution Completed : verifyHomePageUserNameLabelTest
+2021-08-27 17:21:19,398  INFO [main] TestBase:91 - Driver Initialised
+2021-08-27 17:21:23,754  INFO [main] TestExecutionListener:60 - Test Case Execution Started : verifyloginTest
+2021-08-27 17:21:28,915  INFO [main] TestExecutionListener:65 - Test Case Execution Passed : verifyloginTest
+2021-08-27 17:21:28,916  INFO [main] TestExecutionListener:66 - Test Case Execution Completed : verifyloginTest
+2021-08-27 17:21:29,565 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-27 17:21:29,566 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-08-27 17:21:29,568 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-08-27 17:21:29,570 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-08-27 17:21:29,570 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Saurabh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-08-27 17:21:29,842 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-08-27 17:21:29,843 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-08-27 17:21:29,843 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-08-27 17:21:29,844 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-08-27 17:21:29,844 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Saurabh/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
