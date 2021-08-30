@@ -12,17 +12,17 @@
   <parameter name="extentReportPath" value="\test-output\extentreports\ExtentReport.html"/>
   <parameter name="maximiseBrowser" value="true"/>
   <parameter name="userName" value="groupautomation"/>
+  <listeners>
+    <listener class-name="com.crm.qa.base.RetryAnalyzer"/>
+  </listeners>
   <test name="FreeCRM App Test Cases(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.LoginPageTests">
+      <class name="com.crm.qa.testcases.TestPage">
         <methods>
-          <include name="endReport"/>
-          <include name="verifycrmLogoImageTest"/>
-          <include name="setup"/>
-          <include name="initialization"/>
-          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.LoginPageTests -->
+      </class> <!-- com.crm.qa.testcases.TestPage -->
     </classes>
   </test> <!-- FreeCRM App Test Cases(failed) -->
 </suite> <!-- Failed suite [FreeCRM Application Test Automation Suite] -->

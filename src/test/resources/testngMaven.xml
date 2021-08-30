@@ -21,6 +21,10 @@
 		value="\test-output\extentreports\ExtentReport.html" />
 	<parameter name="environment" value="QA" />
 
+	<listeners>
+		<listener class-name="com.crm.qa.base.RetryAnalyzer" />
+	</listeners>
+
 	<test name="FreeCRM App Test Cases">
 		<classes>
 			<class name="com.crm.qa.testcases.ContactsPageTests" />

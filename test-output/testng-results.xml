@@ -1,215 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="8" total="15" passed="7">
+<testng-results skipped="4" failed="2" ignored="0" total="6" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="FreeCRM Application Test Automation Suite" duration-ms="79004" started-at="2021-08-27T11:50:10Z" finished-at="2021-08-27T11:51:29Z">
+  <suite name="FreeCRM Application Test Automation Suite" duration-ms="58" started-at="2021-08-30T15:20:49Z" finished-at="2021-08-30T15:20:49Z">
     <groups>
     </groups>
-    <test name="FreeCRM App Test Cases" duration-ms="79004" started-at="2021-08-27T11:50:10Z" finished-at="2021-08-27T11:51:29Z">
-      <class name="com.crm.qa.testcases.LoginPageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="setup" is-config="true" duration-ms="6091" started-at="2021-08-27T17:20:24Z" finished-at="2021-08-27T17:20:30Z">
+    <test name="FreeCRM App Test Cases" duration-ms="58" started-at="2021-08-30T15:20:49Z" finished-at="2021-08-30T15:20:49Z">
+      <class name="com.crm.qa.testcases.TestPage">
+        <test-method status="SKIP" signature="test1()[pri:0, instance:com.crm.qa.testcases.TestPage@1c758ac]" name="test1" duration-ms="16" started-at="2021-08-30T20:50:49Z" finished-at="2021-08-30T20:50:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.crm.qa.testcases.TestPage.test1(TestPage.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="verifyloginPageTitleTest" duration-ms="14" started-at="2021-08-27T17:20:30Z" finished-at="2021-08-27T17:20:31Z">
+        </test-method> <!-- test1 -->
+        <test-method status="SKIP" signature="test1()[pri:0, instance:com.crm.qa.testcases.TestPage@1c758ac]" name="test1" duration-ms="1" started-at="2021-08-30T20:50:49Z" finished-at="2021-08-30T20:50:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.crm.qa.testcases.TestPage.test1(TestPage.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyloginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="tearDown" is-config="true" duration-ms="594" started-at="2021-08-27T17:20:31Z" finished-at="2021-08-27T17:20:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyloginPageTitleTest status=SUCCESS method=LoginPageTests.verifyloginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTests@1239d7d] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test1 -->
+        <test-method status="FAIL" signature="test1()[pri:0, instance:com.crm.qa.testcases.TestPage@1c758ac]" name="test1" duration-ms="1" started-at="2021-08-30T20:50:49Z" finished-at="2021-08-30T20:50:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.crm.qa.testcases.TestPage.test1(TestPage.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="setup" is-config="true" duration-ms="6786" started-at="2021-08-27T17:20:56Z" finished-at="2021-08-27T17:21:03Z">
+        </test-method> <!-- test1 -->
+        <test-method status="SKIP" signature="test2()[pri:0, instance:com.crm.qa.testcases.TestPage@1c758ac]" name="test2" duration-ms="1" started-at="2021-08-30T20:50:49Z" finished-at="2021-08-30T20:50:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.crm.qa.testcases.TestPage.test2(TestPage.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifycrmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="verifycrmLogoImageTest" duration-ms="130" started-at="2021-08-27T17:21:03Z" finished-at="2021-08-27T17:21:03Z">
+        </test-method> <!-- test2 -->
+        <test-method status="SKIP" signature="test2()[pri:0, instance:com.crm.qa.testcases.TestPage@1c758ac]" name="test2" duration-ms="1" started-at="2021-08-30T20:50:49Z" finished-at="2021-08-30T20:50:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.crm.qa.testcases.TestPage.test2(TestPage.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifycrmLogoImageTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="tearDown" is-config="true" duration-ms="596" started-at="2021-08-27T17:21:03Z" finished-at="2021-08-27T17:21:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifycrmLogoImageTest status=SUCCESS method=LoginPageTests.verifycrmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTests@1239d7d] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test2 -->
+        <test-method status="FAIL" signature="test2()[pri:0, instance:com.crm.qa.testcases.TestPage@1c758ac]" name="test2" duration-ms="0" started-at="2021-08-30T20:50:49Z" finished-at="2021-08-30T20:50:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.crm.qa.testcases.TestPage.test2(TestPage.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="setup" is-config="true" duration-ms="5951" started-at="2021-08-27T17:21:17Z" finished-at="2021-08-27T17:21:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="verifyloginTest" duration-ms="5161" started-at="2021-08-27T17:21:23Z" finished-at="2021-08-27T17:21:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyloginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTests@1239d7d]" name="tearDown" is-config="true" duration-ms="598" started-at="2021-08-27T17:21:28Z" finished-at="2021-08-27T17:21:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyloginTest status=SUCCESS method=LoginPageTests.verifyloginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTests@1239d7d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.LoginPageTests -->
-      <class name="com.crm.qa.testcases.HomePageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTests@572421]" name="setup" is-config="true" duration-ms="11482" started-at="2021-08-27T17:20:31Z" finished-at="2021-08-27T17:20:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTests@572421]" name="verifyHomePageTitleTest" duration-ms="28" started-at="2021-08-27T17:20:43Z" finished-at="2021-08-27T17:20:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.HomePageTests@572421]" name="tearDown" is-config="true" duration-ms="718" started-at="2021-08-27T17:20:43Z" finished-at="2021-08-27T17:20:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyHomePageTitleTest status=SUCCESS method=HomePageTests.verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTests@572421] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTests@572421]" name="setup" is-config="true" duration-ms="12460" started-at="2021-08-27T17:21:04Z" finished-at="2021-08-27T17:21:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomePageUserNameLabelTest()[pri:2, instance:com.crm.qa.testcases.HomePageTests@572421]" name="verifyHomePageUserNameLabelTest" duration-ms="255" started-at="2021-08-27T17:21:16Z" finished-at="2021-08-27T17:21:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageUserNameLabelTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.HomePageTests@572421]" name="tearDown" is-config="true" duration-ms="701" started-at="2021-08-27T17:21:17Z" finished-at="2021-08-27T17:21:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyHomePageUserNameLabelTest status=SUCCESS method=HomePageTests.verifyHomePageUserNameLabelTest()[pri:2, instance:com.crm.qa.testcases.HomePageTests@572421] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.HomePageTests -->
-      <class name="com.crm.qa.testcases.ContactsPageTests">
-        <test-method status="PASS" signature="initialization(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="initialization" is-config="true" duration-ms="157" started-at="2021-08-27T17:20:10Z" finished-at="2021-08-27T17:20:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[\src\test\resources\webDrivers\]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[https://classic.freecrm.com/index.html]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[groupautomation]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Test@12345]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[\test-output\extentreports\ExtentReport.html]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[QA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="setup" is-config="true" duration-ms="12126" started-at="2021-08-27T17:20:10Z" finished-at="2021-08-27T17:20:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="verifyContactsPageTitleTest" duration-ms="1586" started-at="2021-08-27T17:20:22Z" finished-at="2021-08-27T17:20:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsPageTitleTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="tearDown" is-config="true" duration-ms="639" started-at="2021-08-27T17:20:24Z" finished-at="2021-08-27T17:20:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyContactsPageTitleTest status=SUCCESS method=ContactsPageTests.verifyContactsPageTitleTest()[pri:1, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="setup" is-config="true" duration-ms="10647" started-at="2021-08-27T17:20:43Z" finished-at="2021-08-27T17:20:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyContactsPageLabelTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="verifyContactsPageLabelTest" duration-ms="1621" started-at="2021-08-27T17:20:54Z" finished-at="2021-08-27T17:20:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsPageLabelTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="tearDown" is-config="true" duration-ms="761" started-at="2021-08-27T17:20:56Z" finished-at="2021-08-27T17:20:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyContactsPageLabelTest status=SUCCESS method=ContactsPageTests.verifyContactsPageLabelTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.crm.qa.testcases.ContactsPageTests@c7ffd3]" name="endReport" is-config="true" duration-ms="349" started-at="2021-08-27T17:21:29Z" finished-at="2021-08-27T17:21:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- com.crm.qa.testcases.ContactsPageTests -->
+        </test-method> <!-- test2 -->
+      </class> <!-- com.crm.qa.testcases.TestPage -->
     </test> <!-- FreeCRM App Test Cases -->
   </suite> <!-- FreeCRM Application Test Automation Suite -->
 </testng-results>
