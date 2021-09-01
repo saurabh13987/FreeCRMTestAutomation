@@ -28,7 +28,6 @@
 						<suiteXmlFile>src/test/resources/${xmlFile}.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
-						<browser>${browser}</browser>
 						<userName>${username}</userName>
 						<password>${password}</password>
 					</systemPropertyVariables>
