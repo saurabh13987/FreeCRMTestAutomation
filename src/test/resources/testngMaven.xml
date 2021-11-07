@@ -6,6 +6,6 @@
 	<!-- suite name="Suite Name" -->
 	<suite-files>
 		<suite-file path="src/test/resources/testngChrome.xml" />
-		<suite-file path="src/test/resources/testngEdge.xml" />
+		<!-- suite-file path="src/test/resources/testngEdge.xml" / -->
 	</suite-files>
 </suite>
